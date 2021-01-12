@@ -1,4 +1,4 @@
-# Copyright 2020 Petuum, Inc. All Rights Reserved.
+# Copyright 2020 Petuum. All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -55,7 +55,7 @@ class AllReduce(StrategyBuilder):
                 expr.graph_config.replicas.extend(v)    
 
         # find all variables
-        variables = graph_item.trainable_var_op_to_var.values()
+        variables = graph_item.get_trainable_variables()
 
         # Mark each variable to be synchronized with allreduce
         for i, var in enumerate(variables):
