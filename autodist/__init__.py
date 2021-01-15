@@ -23,7 +23,7 @@ from .const import ENV
 from .patch import PatchTensorFlow
 from .utils import logging
 
-import autodist.aggregators as aggregators
+#import autodist.aggregators as aggregators
 
 logging.set_verbosity(ENV.AUTODIST_MIN_LOG_LEVEL.val)
 
@@ -33,7 +33,7 @@ if sys.argv and os.path.exists(sys.argv[0]) and not os.path.isabs(sys.argv[0]):
                   'Now exit.'.format(sys.argv[0]))
     sys.exit(1)
 
-aggregator = aggregators.instantiate("median", 3, 0, []) #median, krum-py, average
+#aggregator = aggregators.instantiate("average", 2, 0, []) #median, krum-py, average
 
 # Runtime compatibility checking
 COMPAT_TF_VERSIONS = [1.15, 2.2]

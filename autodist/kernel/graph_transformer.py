@@ -24,6 +24,7 @@ from autodist.kernel.replicator import Replicator
 from autodist.kernel.synchronization.synchronizer import Synchronizer
 from autodist.utils import logging, visualization_util
 
+import autodist.aggregators as aggregators
 
 class GraphTransformer:
     """
@@ -146,8 +147,9 @@ class GraphTransformer:
             GraphItem
         """
         new_graph_item = graph_item
+        BFTaggregator = aggregators.instantiate("average", 2, 0, []) # median, krum-py, average
         for var_name, syncer in self._synchronizers.items():
-            new_graph_item = syncer.in_graph_apply(new_graph_item, var_name)
+            new_graph_item = syncer.in_graph_apply(new_graph_item, var_name, BFTaggregator)
         return new_graph_item
 
     def _between_graph_apply(self, multi_gpu_graph_item: GraphItem):

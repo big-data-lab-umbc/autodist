@@ -67,3 +67,5 @@ and [tf.distribute](https://github.com/tensorflow/tensorflow/tree/master/tensorf
 '''bash
 python3 /home/starly/Desktop/Fed/autodist/ssp_image_classifier.py
 '''
+
+If you want to use BFTAggregator, modify autodist/kernel/graph_transformer.py 151: **BFTaggregator**  
