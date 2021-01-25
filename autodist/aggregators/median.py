@@ -49,7 +49,9 @@ class MedianGAR(_GAR):
     Returns:
       Aggregated gradient, as a numpy array
     """
-    return deprecated_native.median(gradients)
+    gradients = tf.parallel_stack(gradients)
+    g = [gradients]
+    return deprecated_native.median(g)
 
   def __init__(self, nbworkers, nbbyzwrks, args):
     pass
@@ -58,8 +60,8 @@ class MedianGAR(_GAR):
     # Assertion
     assert len(gradients) > 0, "Empty list of gradient to aggregate"
     # Computation
-    gradients = tf.parallel_stack(gradients)
-    return tf.py_func(type(self)._aggregate, [gradients], gradients.dtype, stateful=False, name="GAR_median")
+    #gradients = tf.parallel_stack(gradients)
+    return tf.py_func(type(self)._aggregate, gradients, gradients[0].dtype, stateful=False, name="GAR_median")
 
 # ---------------------------------------------------------------------------- #
 # GAR registering

@@ -147,7 +147,7 @@ class GraphTransformer:
             GraphItem
         """
         new_graph_item = graph_item
-        BFTaggregator = aggregators.instantiate("average", 2, 0, []) # median, krum-py, average
+        BFTaggregator = aggregators.instantiate("median", 2, 0, []) # median, krum-py, average
         for var_name, syncer in self._synchronizers.items():
             new_graph_item = syncer.in_graph_apply(new_graph_item, var_name, BFTaggregator)
         return new_graph_item
