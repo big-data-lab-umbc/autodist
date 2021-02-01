@@ -32,7 +32,7 @@
 
 import math
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import warnings
 
 import autodist.tools as tools
@@ -96,6 +96,7 @@ class PYKrumGAR(_GAR):
     # Assertion
     assert len(gradients) > 0, "Empty list of gradient to aggregate"
     # Computation
+    gradients = [gradients[0],gradients[1]]
     return tf.py_func(self._aggregate, gradients, gradients[0].dtype, stateful=False, name="GAR_krum")
 
 class TFKrumGAR(_GAR):
@@ -155,7 +156,22 @@ class COKrumGAR(_GAR):
     # Assertion
     assert len(gradients) > 0, "Empty list of gradient to aggregate"
     # Computation
-    return native.instantiate_op(type(self).co_name, tf.parallel_stack(gradients), f=self.__nbbyzwrks, m=self.__nbselected)
+    reshape_gradients = gradients
+    shape = gradients[0].shape
+    if len(shape) == 2 and shape[1] == 10:
+        for i in range(len(gradients)):
+            reshape_gradients[i] = tf.reshape(gradients[i],[54080,])
+    else:
+        for i in range(len(gradients)):
+            reshape_gradients[i] = tf.reshape(gradients[i],[-1])
+    grad_avg = native.instantiate_op(type(self).co_name, tf.parallel_stack(gradients), f=self.__nbbyzwrks, m=self.__nbselected)
+    if len(shape) == 2 and shape[1] == 10:
+        #x = tf.placeholder(tf.float32, shape=[10,None], name="tmp")
+        #grad_avg = tf.reshape(grad_avg, shape=[tf.shape(x)[0],10])
+        grad_avg = tf.reshape(grad_avg, shape=[5408,10])
+    else:
+        grad_avg = tf.reshape(grad_avg, shape)
+    return grad_avg
 
 # ---------------------------------------------------------------------------- #
 # GAR registering

@@ -46,7 +46,7 @@ def trace_graph(optn, what):
   Returns:
     Identity/group of the given tensor/operation
   """
-  import tensorflow as tf
+  import tensorflow.compat.v1 as tf
   dummy_tn = tf.constant(0, name="print_dummy")
   begin_tn = tf.Print(dummy_tn, ["[TRACE] (begin) " + what])
   with tf.control_dependencies([begin_tn, optn]):
@@ -85,7 +85,7 @@ class Checkpoints:
       Saver instance
     """
     if self.__saver is None:
-      import tensorflow as tf
+      import tensorflow.compat.v1 as tf
       self.__saver = tf.train.Saver()
     return self.__saver
 

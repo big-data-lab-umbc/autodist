@@ -463,20 +463,22 @@ class PSSynchronizer(Synchronizer):
             for i in range(self.num_replicas)
         ]
 
-        # # Aggregate gradients on `reduce_to_device` (usually CPU)
-        # with ops.device(reduce_to_device):
-        #     #print("@@@@@@@@@@@@@@",[grad_op.outputs[output_idx] for grad_op in grad_ops])
-        #     grad_sum_op_name = ops.prepend_name_scope(grad_op_name, u"%sAdd" % AUTODIST_PREFIX)
-        #     grad_sum = math_ops.add_n([grad_op.outputs[output_idx] for grad_op in grad_ops], name=grad_sum_op_name)
-        #     grad_avg_op_name = ops.prepend_name_scope(grad_op_name, u"%sDiv" % AUTODIST_PREFIX)
-        #     grad_avg = math_ops.realdiv(grad_sum, self.num_replicas, name=grad_avg_op_name)
-        #     #print("$$$$$$$$$$$$$$",grad_avg)
-        # return grad_avg
-
-        # BFT Aggregator
+        # Aggregate gradients on `reduce_to_device` (usually CPU)
         with ops.device(reduce_to_device):
+            #print("@@@@@@@@@@@@@@",[grad_op.outputs[output_idx] for grad_op in grad_ops])
+            '''
+            grad_sum_op_name = ops.prepend_name_scope(grad_op_name, u"%sAdd" % AUTODIST_PREFIX)
+            grad_sum = math_ops.add_n([grad_op.outputs[output_idx] for grad_op in grad_ops], name=grad_sum_op_name)
+            grad_avg_op_name = ops.prepend_name_scope(grad_op_name, u"%sDiv" % AUTODIST_PREFIX)
+            grad_avg = math_ops.realdiv(grad_sum, self.num_replicas, name=grad_avg_op_name)
+            '''
+
+            # BFT Aggregator
             gradients = [grad_op.outputs[output_idx] for grad_op in grad_ops]
             grad_avg = BFTaggregator.aggregate(gradients)
+
+            #print("$$$$$$$$$$$$$$",grad_avg)
+
         return grad_avg
 
     def _get_aggregated_sparse_grad(self, graph_item, var_op, grad, reduce_to_device, BFTaggregator):

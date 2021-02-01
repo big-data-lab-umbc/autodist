@@ -30,7 +30,7 @@
  # Synchronous average with support for NaN coordinates GAR.
 ###
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from . import _GAR, register, deprecated_native
 

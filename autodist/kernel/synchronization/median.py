@@ -30,40 +30,29 @@
  # Coordinate-wise median GAR.
 ###
 
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
-from . import _GAR, register, deprecated_native
+from . import deprecated_native
 
 # ---------------------------------------------------------------------------- #
 # Median coordinate-per-coordinate GAR class
 
-class MedianGAR(_GAR):
-  """ Median coordinate-per-coordinate GAR class.
+def _aggregate(gradients):
+  """ Aggregate the gradient using the associated deprecated_native helper.
+  Args:
+    gradients Stacked list of submitted gradients, as a numpy array
+  Returns:
+    Aggregated gradient, as a numpy array
   """
+  gradients = tf.parallel_stack(gradients)
+  g = [gradients]
+  return deprecated_native.median(g)
 
-  @staticmethod
-  def _aggregate(gradients):
-    """ Aggregate the gradient using the associated deprecated_native helper.
-    Args:
-      gradients Stacked list of submitted gradients, as a numpy array
-    Returns:
-      Aggregated gradient, as a numpy array
-    """
-    return deprecated_native.median(gradients)
+def aggregate(gradients, tmp):
+  # Assertion
+  assert len(gradients) > 0, "Empty list of gradient to aggregate"
+  # Computation
+  #gradients = tf.parallel_stack(gradients)
+  #tmp = tf.py_func(type(self)._aggregate, gradients, gradients[0].dtype, stateful=False, name="GAR_median")
+  return tmp
 
-  def __init__(self, nbworkers, nbbyzwrks, args):
-    pass
-
-  def aggregate(self, gradients):
-    # Assertion
-    assert len(gradients) > 0, "Empty list of gradient to aggregate"
-    # Computation
-    #gradients = tf.parallel_stack(gradients)
-    #return tf.py_func(type(self)._aggregate, [gradients], gradients.dtype, stateful=False, name="GAR_median")
-    return tf.math.reduce_mean(gradients, 0)
-
-# ---------------------------------------------------------------------------- #
-# GAR registering
-
-# Register aggregation rule
-register("median", MedianGAR)

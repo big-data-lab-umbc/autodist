@@ -37,7 +37,7 @@ import re
 import shlex
 import subprocess
 import sys
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import traceback
 import warnings
 
