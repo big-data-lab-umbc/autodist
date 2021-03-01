@@ -78,7 +78,7 @@ class Coordinator:
                     ENV.SYS_RESOURCE_PATH.name: ENV.SYS_RESOURCE_PATH.val,
                 }
                 cmd_env = ['{}={}'.format(k, v) for k, v in env.items()]
-                cmd_main = ["python"] + sys.argv
+                cmd_main = ["python3"] + sys.argv
                 cmd = cmd_env + cmd_main
 
                 self.cluster.remote_copy(

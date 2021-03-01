@@ -19,11 +19,11 @@ nodes:
     ssh_config: conf4
 ssh:
   conf2:
-    key_file: '~/.ssh/id_rsa'
+    key_file: '.ssh/id_rsa'
     username: 'dss2'
   conf3:
-    key_file: '~/.ssh/id_rsa'
+    key_file: '.ssh/id_rsa'
     username: 'dss3'
   conf4:
-    key_file: '~/.ssh/id_rsa'
+    key_file: '.ssh/id_rsa'
     username: 'dss4'
