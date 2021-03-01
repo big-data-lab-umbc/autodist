@@ -1,21 +1,29 @@
 nodes:
-  # single-node experiment
-  - address: localhost
-    gpus: [0,1,2,3]
-    chief: true
+  # # single-node experiment
+  # - address: localhost
+  #   gpus: [0,1,2,3]
+  #   chief: true
 
    # multi-nodes experiment
-#  - address: 10.1.103.161
-#    gpus: [0,1,2,3]
-#    chief: true
-#    ssh_config: conf
-#  - address: 10.1.102.38
-#    gpus: [0,1,2,3]
-#    ssh_config: conf
-#ssh:
-#  conf:
-#    username: 'ubuntu'
-#    key_file: '/home/ubuntu/.ssh/autodist.pem'
-#    python_venv: 'source /home/ubuntu/venvs/autodist/bin/activate'
-#    shared_envs:
-#      LD_LIBRARY_PATH: '/home/ubuntu/data'
+  - address: 130.85.37.13
+    cpus: [0]
+    chief: true
+  - address: 130.85.37.14
+    cpus: [0]
+    ssh_config: conf2
+  - address: 130.85.37.15
+    cpus: [0]
+    ssh_config: conf3
+  - address: 130.85.37.16
+    cpus: [0]
+    ssh_config: conf4
+ssh:
+  conf2:
+    key_file: '~/.ssh/id_rsa'
+    username: 'dss2'
+  conf3:
+    key_file: '~/.ssh/id_rsa'
+    username: 'dss3'
+  conf4:
+    key_file: '~/.ssh/id_rsa'
+    username: 'dss4'

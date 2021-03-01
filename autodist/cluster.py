@@ -202,7 +202,7 @@ class Cluster(metaclass=ABCMeta):
                 else:  # remote
                     self.remote_pre_start_tf_server(address, tf_server_starter_filepath=module_file)
                     file = os.path.join(DEFAULT_WORKING_DIR, os.path.basename(module_file))
-                    bash = envs + envs_cuda + ['python', '-u', file] + args
+                    bash = envs + envs_cuda + ['python3', '-u', file] + args
                     logging.info("Launching tf.server on %s" % address)
                     proc = self.remote_exec(bash, hostname=address)
                     # The above line immediately follows the Popen
