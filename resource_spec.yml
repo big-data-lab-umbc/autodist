@@ -17,6 +17,15 @@ nodes:
   - address: 130.85.37.16
     cpus: [0]
     ssh_config: conf4
+  - address: 130.85.37.17
+    cpus: [0]
+    ssh_config: conf5
+  - address: 130.85.37.18
+    cpus: [0]
+    ssh_config: conf6
+  - address: 130.85.37.19
+    cpus: [0]
+    ssh_config: conf7
 ssh:
   conf2:
     key_file: '.ssh/id_rsa'
@@ -27,3 +36,12 @@ ssh:
   conf4:
     key_file: '.ssh/id_rsa'
     username: 'dss4'
+  conf5:
+    key_file: '.ssh/id_rsa'
+    username: 'dss5'
+  conf6:
+    key_file: '.ssh/id_rsa'
+    username: 'dss6'
+  conf7:
+    key_file: '.ssh/id_rsa'
+    username: 'dss7'

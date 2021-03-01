@@ -21,15 +21,22 @@ fashion_mnist = tf.keras.datasets.fashion_mnist
 
 (train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data()
 
-train_images = train_images[:15000, :, :, None]     #15000:30000, 30000:45000, 45000:60000
-test_images = test_images[:15000, :, :, None]
+train_images = train_images[:8000, :, :, None]     
+#train_images = train_images[8000:16000, :, :, None]
+#train_images = train_images[16000:24000, :, :, None]
+#train_images = train_images[24000:32000, :, :, None]
+#train_images = train_images[32000:40000, :, :, None]
+#train_images = train_images[40000:48000, :, :, None]
+#train_images = train_images[48000:56000, :, :, None]
+
+test_images = test_images[:4000, :, :, None]
 
 train_images = train_images / np.float32(255)
 test_images = test_images / np.float32(255)
 
-BATCH_SIZE = 1024
+BATCH_SIZE = 512
 
-EPOCHS = 10
+EPOCHS = 20
 train_steps_per_epoch = min(1000, len(train_images) // BATCH_SIZE) #len(train_images)=60000
 
 tf.reset_default_graph()
@@ -83,19 +90,19 @@ with tf.Graph().as_default(), d.scope():
                 losses.append(loss)
             e_losses.append(np.mean(losses))
             
-            prediction, prediction_hat = sess.run(test_fetches, {x: train_images[0:5000], y: train_labels[0:5000]})
+            prediction, prediction_hat = sess.run(test_fetches, {x: train_images[0:4000], y: train_labels[0:4000]})
             prediction = keras.utils.to_categorical(prediction, 10)
             correct_prediction = tf.equal(tf.round(prediction_hat), prediction)
             train_accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32)).eval()
             e_train_accuracy.append(train_accuracy)
 
-            prediction, prediction_hat = sess.run(test_fetches, {x: test_images[0:5000], y: test_labels[0:5000]})
+            prediction, prediction_hat = sess.run(test_fetches, {x: test_images, y: test_labels})
             prediction = keras.utils.to_categorical(prediction, 10)
             correct_prediction = tf.equal(tf.round(prediction_hat), prediction)
             test_accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32)).eval()
             e_test_accuracy.append(test_accuracy)
 
-            print("\n\nepoch: ",epoch,"\nloss: ",e_losses[epoch],"\ntrain_accuracy: ",train_accuracy,"\ntest_accuracy: ",test_accuracy)
+            #print("\n\nepoch: ",epoch,"\nloss: ",e_losses[epoch],"\ntrain_accuracy: ",train_accuracy,"\ntest_accuracy: ",test_accuracy)
 
     # listToStr = ' '.join([str(elem) for elem in e_losses])
 
