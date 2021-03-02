@@ -1,5 +1,0 @@
-# Single node multi-cpu experiment
-
-nodes:
-  - address: localhost
-    cpus: [0,1]
