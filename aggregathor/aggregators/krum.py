@@ -97,7 +97,6 @@ class PYKrumGAR(_GAR):
     assert len(gradients) > 0, "Empty list of gradient to aggregate"
     # Computation
     gradients = [gradients[0],gradients[1]]
-    print("@@@@@@@@@@",gradients)
     return tf.py_func(self._aggregate, gradients, gradients[0].dtype, stateful=False, name="GAR_krum")
 
 class TFKrumGAR(_GAR):

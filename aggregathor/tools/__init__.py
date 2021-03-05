@@ -300,7 +300,6 @@ def import_directory(dirpath, scope, post=None, ignore=["__init__.py"]):
   # Import in the scope of the caller
   for path in dirpath.iterdir():
     if path.is_file() and path.suffix == ".py" and path.name not in ignore:
-      print("@@@@@@",path.stem)
       name = path.stem
       with Context(name, None):
         try:
