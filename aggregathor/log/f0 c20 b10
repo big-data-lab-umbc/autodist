@@ -1,0 +1,48 @@
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.9494374999999998]
+[Evaluation] Global model validate accuracy change: [0.98]
+
+Round: 2
+Current aggregate accuracy change: [0.9494374999999998, 0.9597500000000001]
+[Evaluation] Global model validate accuracy change: [0.98, 0.97]
+
+Round: 3
+Current aggregate accuracy change: [0.9494374999999998, 0.9597500000000001, 0.9748125000000001]
+[Evaluation] Global model validate accuracy change: [0.98, 0.97, 0.98]
+
+Round: 4
+Current aggregate accuracy change: [0.9494374999999998, 0.9597500000000001, 0.9748125000000001, 0.9857499999999999]
+[Evaluation] Global model validate accuracy change: [0.98, 0.97, 0.98, 0.98]
+
+Round: 5
+Current aggregate accuracy change: [0.9494374999999998, 0.9597500000000001, 0.9748125000000001, 0.9857499999999999, 0.9826874999999998]
+[Evaluation] Global model validate accuracy change: [0.98, 0.97, 0.98, 0.98, 0.97]
+
+Round: 6
+Current aggregate accuracy change: [0.9494374999999998, 0.9597500000000001, 0.9748125000000001, 0.9857499999999999, 0.9826874999999998, 0.9874375]
+[Evaluation] Global model validate accuracy change: [0.98, 0.97, 0.98, 0.98, 0.97, 0.99]
+
+Round: 7
+Current aggregate accuracy change: [0.9494374999999998, 0.9597500000000001, 0.9748125000000001, 0.9857499999999999, 0.9826874999999998, 0.9874375, 0.9950000000000001]
+[Evaluation] Global model validate accuracy change: [0.98, 0.97, 0.98, 0.98, 0.97, 0.99, 0.99]
+
+Round: 8
+Current aggregate accuracy change: [0.9494374999999998, 0.9597500000000001, 0.9748125000000001, 0.9857499999999999, 0.9826874999999998, 0.9874375, 0.9950000000000001, 0.9926875000000004]
+[Evaluation] Global model validate accuracy change: [0.98, 0.97, 0.98, 0.98, 0.97, 0.99, 0.99, 0.97]
+
+Round: 9
+Current aggregate accuracy change: [0.9494374999999998, 0.9597500000000001, 0.9748125000000001, 0.9857499999999999, 0.9826874999999998, 0.9874375, 0.9950000000000001, 0.9926875000000004, 0.9956249999999999]
+[Evaluation] Global model validate accuracy change: [0.98, 0.97, 0.98, 0.98, 0.97, 0.99, 0.99, 0.97, 0.98]
+
+Round: 10
+Current aggregate accuracy change: [0.9494374999999998, 0.9597500000000001, 0.9748125000000001, 0.9857499999999999, 0.9826874999999998, 0.9874375, 0.9950000000000001, 0.9926875000000004, 0.9956249999999999, 0.995875]
+[Evaluation] Global model validate accuracy change: [0.98, 0.97, 0.98, 0.98, 0.97, 0.99, 0.99, 0.97, 0.98, 0.99]
+
+Round: 11
+Current aggregate accuracy change: [0.9494374999999998, 0.9597500000000001, 0.9748125000000001, 0.9857499999999999, 0.9826874999999998, 0.9874375, 0.9950000000000001, 0.9926875000000004, 0.9956249999999999, 0.995875, 0.9973750000000001]
+[Evaluation] Global model validate accuracy change: [0.98, 0.97, 0.98, 0.98, 0.97, 0.99, 0.99, 0.97, 0.98, 0.99, 0.98]
+

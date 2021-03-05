@@ -1,0 +1,1592 @@
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.9216666666666666]
+[Evaluation] Global model validate accuracy change: [0.86]
+
+Round: 2
+Current aggregate accuracy change: [0.9216666666666666, 0.9508333333333333]
+[Evaluation] Global model validate accuracy change: [0.86, 0.86]
+
+Round: 3
+Current aggregate accuracy change: [0.9216666666666666, 0.9508333333333333, 0.9708333333333332]
+[Evaluation] Global model validate accuracy change: [0.86, 0.86, 0.92]
+
+Round: 4
+Current aggregate accuracy change: [0.9216666666666666, 0.9508333333333333, 0.9708333333333332, 0.98875]
+[Evaluation] Global model validate accuracy change: [0.86, 0.86, 0.92, 0.86]
+
+Round: 5
+Current aggregate accuracy change: [0.9216666666666666, 0.9508333333333333, 0.9708333333333332, 0.98875, 0.9908333333333332]
+[Evaluation] Global model validate accuracy change: [0.86, 0.86, 0.92, 0.86, 0.89]
+
+Round: 6
+Current aggregate accuracy change: [0.9216666666666666, 0.9508333333333333, 0.9708333333333332, 0.98875, 0.9908333333333332, 0.99375]
+[Evaluation] Global model validate accuracy change: [0.86, 0.86, 0.92, 0.86, 0.89, 0.93]
+
+Round: 7
+Current aggregate accuracy change: [0.9216666666666666, 0.9508333333333333, 0.9708333333333332, 0.98875, 0.9908333333333332, 0.99375, 0.995]
+[Evaluation] Global model validate accuracy change: [0.86, 0.86, 0.92, 0.86, 0.89, 0.93, 0.9]
+
+Round: 8
+Current aggregate accuracy change: [0.9216666666666666, 0.9508333333333333, 0.9708333333333332, 0.98875, 0.9908333333333332, 0.99375, 0.995, 0.9925000000000002]
+[Evaluation] Global model validate accuracy change: [0.86, 0.86, 0.92, 0.86, 0.89, 0.93, 0.9, 0.88]
+
+Round: 9
+Current aggregate accuracy change: [0.9216666666666666, 0.9508333333333333, 0.9708333333333332, 0.98875, 0.9908333333333332, 0.99375, 0.995, 0.9925000000000002, 0.9975]
+[Evaluation] Global model validate accuracy change: [0.86, 0.86, 0.92, 0.86, 0.89, 0.93, 0.9, 0.88, 0.92]
+
+Round: 10
+Current aggregate accuracy change: [0.9216666666666666, 0.9508333333333333, 0.9708333333333332, 0.98875, 0.9908333333333332, 0.99375, 0.995, 0.9925000000000002, 0.9975, 1.0]
+[Evaluation] Global model validate accuracy change: [0.86, 0.86, 0.92, 0.86, 0.89, 0.93, 0.9, 0.88, 0.92, 0.93]
+
+Round: 11
+Current aggregate accuracy change: [0.9216666666666666, 0.9508333333333333, 0.9708333333333332, 0.98875, 0.9908333333333332, 0.99375, 0.995, 0.9925000000000002, 0.9975, 1.0, 1.0]
+[Evaluation] Global model validate accuracy change: [0.86, 0.86, 0.92, 0.86, 0.89, 0.93, 0.9, 0.88, 0.92, 0.93, 0.9]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.9387500000000001]
+[Evaluation] Global model validate accuracy change: [0.9]
+
+Round: 2
+Current aggregate accuracy change: [0.9387500000000001, 0.96625]
+[Evaluation] Global model validate accuracy change: [0.9, 0.93]
+
+Round: 3
+Current aggregate accuracy change: [0.9387500000000001, 0.96625, 0.98625]
+[Evaluation] Global model validate accuracy change: [0.9, 0.93, 0.95]
+
+Round: 4
+Current aggregate accuracy change: [0.9387500000000001, 0.96625, 0.98625, 0.9866666666666667]
+[Evaluation] Global model validate accuracy change: [0.9, 0.93, 0.95, 0.94]
+
+Round: 5
+Current aggregate accuracy change: [0.9387500000000001, 0.96625, 0.98625, 0.9866666666666667, 0.9937499999999999]
+[Evaluation] Global model validate accuracy change: [0.9, 0.93, 0.95, 0.94, 0.95]
+
+Round: 6
+Current aggregate accuracy change: [0.9387500000000001, 0.96625, 0.98625, 0.9866666666666667, 0.9937499999999999, 0.9925000000000002]
+[Evaluation] Global model validate accuracy change: [0.9, 0.93, 0.95, 0.94, 0.95, 0.93]
+
+Round: 7
+Current aggregate accuracy change: [0.9387500000000001, 0.96625, 0.98625, 0.9866666666666667, 0.9937499999999999, 0.9925000000000002, 0.9962500000000001]
+[Evaluation] Global model validate accuracy change: [0.9, 0.93, 0.95, 0.94, 0.95, 0.93, 0.94]
+
+Round: 8
+Current aggregate accuracy change: [0.9387500000000001, 0.96625, 0.98625, 0.9866666666666667, 0.9937499999999999, 0.9925000000000002, 0.9962500000000001, 0.9975]
+[Evaluation] Global model validate accuracy change: [0.9, 0.93, 0.95, 0.94, 0.95, 0.93, 0.94, 0.94]
+
+Round: 9
+Current aggregate accuracy change: [0.9387500000000001, 0.96625, 0.98625, 0.9866666666666667, 0.9937499999999999, 0.9925000000000002, 0.9962500000000001, 0.9975, 0.9975]
+[Evaluation] Global model validate accuracy change: [0.9, 0.93, 0.95, 0.94, 0.95, 0.93, 0.94, 0.94, 0.94]
+
+Round: 10
+Current aggregate accuracy change: [0.9387500000000001, 0.96625, 0.98625, 0.9866666666666667, 0.9937499999999999, 0.9925000000000002, 0.9962500000000001, 0.9975, 0.9975, 1.0]
+[Evaluation] Global model validate accuracy change: [0.9, 0.93, 0.95, 0.94, 0.95, 0.93, 0.94, 0.94, 0.94, 0.94]
+
+Round: 11
+Current aggregate accuracy change: [0.9387500000000001, 0.96625, 0.98625, 0.9866666666666667, 0.9937499999999999, 0.9925000000000002, 0.9962500000000001, 0.9975, 0.9975, 1.0, 1.0]
+[Evaluation] Global model validate accuracy change: [0.9, 0.93, 0.95, 0.94, 0.95, 0.93, 0.94, 0.94, 0.94, 0.94, 0.94]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.9308333333333334]
+[Evaluation] Global model validate accuracy change: [0.85]
+
+Round: 2
+Current aggregate accuracy change: [0.9308333333333334, 0.9608333333333333]
+[Evaluation] Global model validate accuracy change: [0.85, 0.91]
+
+Round: 3
+Current aggregate accuracy change: [0.9308333333333334, 0.9608333333333333, 0.9741666666666666]
+[Evaluation] Global model validate accuracy change: [0.85, 0.91, 0.92]
+
+Round: 4
+Current aggregate accuracy change: [0.9308333333333334, 0.9608333333333333, 0.9741666666666666, 0.9858333333333333]
+[Evaluation] Global model validate accuracy change: [0.85, 0.91, 0.92, 0.9]
+
+Round: 5
+Current aggregate accuracy change: [0.9308333333333334, 0.9608333333333333, 0.9741666666666666, 0.9858333333333333, 0.9854166666666667]
+[Evaluation] Global model validate accuracy change: [0.85, 0.91, 0.92, 0.9, 0.93]
+
+Round: 6
+Current aggregate accuracy change: [0.9308333333333334, 0.9608333333333333, 0.9741666666666666, 0.9858333333333333, 0.9854166666666667, 0.9962500000000001]
+[Evaluation] Global model validate accuracy change: [0.85, 0.91, 0.92, 0.9, 0.93, 0.94]
+
+Round: 7
+Current aggregate accuracy change: [0.9308333333333334, 0.9608333333333333, 0.9741666666666666, 0.9858333333333333, 0.9854166666666667, 0.9962500000000001, 0.99875]
+[Evaluation] Global model validate accuracy change: [0.85, 0.91, 0.92, 0.9, 0.93, 0.94, 0.94]
+
+Round: 8
+Current aggregate accuracy change: [0.9308333333333334, 0.9608333333333333, 0.9741666666666666, 0.9858333333333333, 0.9854166666666667, 0.9962500000000001, 0.99875, 0.9979166666666668]
+[Evaluation] Global model validate accuracy change: [0.85, 0.91, 0.92, 0.9, 0.93, 0.94, 0.94, 0.93]
+
+Round: 9
+Current aggregate accuracy change: [0.9308333333333334, 0.9608333333333333, 0.9741666666666666, 0.9858333333333333, 0.9854166666666667, 0.9962500000000001, 0.99875, 0.9979166666666668, 1.0]
+[Evaluation] Global model validate accuracy change: [0.85, 0.91, 0.92, 0.9, 0.93, 0.94, 0.94, 0.93, 0.92]
+
+Round: 10
+Current aggregate accuracy change: [0.9308333333333334, 0.9608333333333333, 0.9741666666666666, 0.9858333333333333, 0.9854166666666667, 0.9962500000000001, 0.99875, 0.9979166666666668, 1.0, 0.99875]
+[Evaluation] Global model validate accuracy change: [0.85, 0.91, 0.92, 0.9, 0.93, 0.94, 0.94, 0.93, 0.92, 0.95]
+
+Round: 11
+Current aggregate accuracy change: [0.9308333333333334, 0.9608333333333333, 0.9741666666666666, 0.9858333333333333, 0.9854166666666667, 0.9962500000000001, 0.99875, 0.9979166666666668, 1.0, 0.99875, 1.0]
+[Evaluation] Global model validate accuracy change: [0.85, 0.91, 0.92, 0.9, 0.93, 0.94, 0.94, 0.93, 0.92, 0.95, 0.95]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.9441666666666667]
+[Evaluation] Global model validate accuracy change: [0.89]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.9237500000000001]
+[Evaluation] Global model validate accuracy change: [0.9]
+
+Round: 2
+Current aggregate accuracy change: [0.9237500000000001, 0.9537499999999999]
+[Evaluation] Global model validate accuracy change: [0.9, 0.93]
+
+Round: 3
+Current aggregate accuracy change: [0.9237500000000001, 0.9537499999999999, 0.97]
+[Evaluation] Global model validate accuracy change: [0.9, 0.93, 0.92]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.92875]
+[Evaluation] Global model validate accuracy change: [0.97]
+
+Round: 2
+Current aggregate accuracy change: [0.92875, 0.9533333333333334]
+[Evaluation] Global model validate accuracy change: [0.97, 0.96]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.9441666666666667]
+[Evaluation] Global model validate accuracy change: [0.9]
+
+Round: 2
+Current aggregate accuracy change: [0.9441666666666667, 0.9666666666666666]
+[Evaluation] Global model validate accuracy change: [0.9, 0.94]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.9558333333333334]
+[Evaluation] Global model validate accuracy change: [0.9]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.9479166666666667]
+[Evaluation] Global model validate accuracy change: [0.94]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.9525]
+[Evaluation] Global model validate accuracy change: [0.79]
+
+Round: 2
+Current aggregate accuracy change: [0.9525, 0.9695833333333332]
+[Evaluation] Global model validate accuracy change: [0.79, 0.83]
+
+Round: 3
+Current aggregate accuracy change: [0.9525, 0.9695833333333332, 0.9833333333333334]
+[Evaluation] Global model validate accuracy change: [0.79, 0.83, 0.88]
+
+Round: 4
+Current aggregate accuracy change: [0.9525, 0.9695833333333332, 0.9833333333333334, 0.9770833333333334]
+[Evaluation] Global model validate accuracy change: [0.79, 0.83, 0.88, 0.85]
+
+Round: 5
+Current aggregate accuracy change: [0.9525, 0.9695833333333332, 0.9833333333333334, 0.9770833333333334, 0.9904166666666667]
+[Evaluation] Global model validate accuracy change: [0.79, 0.83, 0.88, 0.85, 0.86]
+
+Round: 6
+Current aggregate accuracy change: [0.9525, 0.9695833333333332, 0.9833333333333334, 0.9770833333333334, 0.9904166666666667, 0.9908333333333335]
+[Evaluation] Global model validate accuracy change: [0.79, 0.83, 0.88, 0.85, 0.86, 0.83]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.9458333333333333]
+[Evaluation] Global model validate accuracy change: [0.89]
+
+Round: 2
+Current aggregate accuracy change: [0.9458333333333333, 0.9770833333333335]
+[Evaluation] Global model validate accuracy change: [0.89, 0.95]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.9591666666666667]
+[Evaluation] Global model validate accuracy change: [0.88]
+
+Round: 2
+Current aggregate accuracy change: [0.9591666666666667, 0.9729166666666669]
+[Evaluation] Global model validate accuracy change: [0.88, 0.89]
+
+Round: 3
+Current aggregate accuracy change: [0.9591666666666667, 0.9729166666666669, 0.9841666666666666]
+[Evaluation] Global model validate accuracy change: [0.88, 0.89, 0.91]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.9358333333333333]
+[Evaluation] Global model validate accuracy change: [0.87]
+
+Round: 2
+Current aggregate accuracy change: [0.9358333333333333, 0.9637500000000001]
+[Evaluation] Global model validate accuracy change: [0.87, 0.88]
+
+Round: 3
+Current aggregate accuracy change: [0.9358333333333333, 0.9637500000000001, 0.9737500000000001]
+[Evaluation] Global model validate accuracy change: [0.87, 0.88, 0.9]
+
+Round: 4
+Current aggregate accuracy change: [0.9358333333333333, 0.9637500000000001, 0.9737500000000001, 0.9883333333333334]
+[Evaluation] Global model validate accuracy change: [0.87, 0.88, 0.9, 0.79]
+
+Round: 5
+Current aggregate accuracy change: [0.9358333333333333, 0.9637500000000001, 0.9737500000000001, 0.9883333333333334, 0.9916666666666667]
+[Evaluation] Global model validate accuracy change: [0.87, 0.88, 0.9, 0.79, 0.91]
+
+Round: 6
+Current aggregate accuracy change: [0.9358333333333333, 0.9637500000000001, 0.9737500000000001, 0.9883333333333334, 0.9916666666666667, 0.9929166666666667]
+[Evaluation] Global model validate accuracy change: [0.87, 0.88, 0.9, 0.79, 0.91, 0.91]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.9400000000000001]
+[Evaluation] Global model validate accuracy change: [0.88]
+
+Round: 2
+Current aggregate accuracy change: [0.9400000000000001, 0.9608333333333333]
+[Evaluation] Global model validate accuracy change: [0.88, 0.92]
+
+Round: 3
+Current aggregate accuracy change: [0.9400000000000001, 0.9608333333333333, 0.9733333333333334]
+[Evaluation] Global model validate accuracy change: [0.88, 0.92, 0.94]
+
+Round: 4
+Current aggregate accuracy change: [0.9400000000000001, 0.9608333333333333, 0.9733333333333334, 0.9791666666666667]
+[Evaluation] Global model validate accuracy change: [0.88, 0.92, 0.94, 0.92]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.9450000000000001]
+[Evaluation] Global model validate accuracy change: [0.94]
+
+Round: 2
+Current aggregate accuracy change: [0.9450000000000001, 0.9708333333333333]
+[Evaluation] Global model validate accuracy change: [0.94, 0.94]
+
+Round: 3
+Current aggregate accuracy change: [0.9450000000000001, 0.9708333333333333, 0.9733333333333334]
+[Evaluation] Global model validate accuracy change: [0.94, 0.94, 0.98]
+
+Round: 4
+Current aggregate accuracy change: [0.9450000000000001, 0.9708333333333333, 0.9733333333333334, 0.9895833333333335]
+[Evaluation] Global model validate accuracy change: [0.94, 0.94, 0.98, 0.98]
+
+Round: 5
+Current aggregate accuracy change: [0.9450000000000001, 0.9708333333333333, 0.9733333333333334, 0.9895833333333335, 0.9908333333333333]
+[Evaluation] Global model validate accuracy change: [0.94, 0.94, 0.98, 0.98, 0.98]
+
+Round: 6
+Current aggregate accuracy change: [0.9450000000000001, 0.9708333333333333, 0.9733333333333334, 0.9895833333333335, 0.9908333333333333, 0.9904166666666667]
+[Evaluation] Global model validate accuracy change: [0.94, 0.94, 0.98, 0.98, 0.98, 0.96]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.9512499999999999]
+[Evaluation] Global model validate accuracy change: [0.95]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.9433333333333334]
+[Evaluation] Global model validate accuracy change: [0.86]
+
+Round: 2
+Current aggregate accuracy change: [0.9433333333333334, 0.9679166666666668]
+[Evaluation] Global model validate accuracy change: [0.86, 0.86]
+
+Round: 3
+Current aggregate accuracy change: [0.9433333333333334, 0.9679166666666668, 0.9762499999999998]
+[Evaluation] Global model validate accuracy change: [0.86, 0.86, 0.88]
+
+Round: 4
+Current aggregate accuracy change: [0.9433333333333334, 0.9679166666666668, 0.9762499999999998, 0.9850000000000001]
+[Evaluation] Global model validate accuracy change: [0.86, 0.86, 0.88, 0.88]
+
+Round: 5
+Current aggregate accuracy change: [0.9433333333333334, 0.9679166666666668, 0.9762499999999998, 0.9850000000000001, 0.9925000000000002]
+[Evaluation] Global model validate accuracy change: [0.86, 0.86, 0.88, 0.88, 0.91]
+
+Round: 6
+Current aggregate accuracy change: [0.9433333333333334, 0.9679166666666668, 0.9762499999999998, 0.9850000000000001, 0.9925000000000002, 0.9937499999999999]
+[Evaluation] Global model validate accuracy change: [0.86, 0.86, 0.88, 0.88, 0.91, 0.91]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.9575000000000001]
+[Evaluation] Global model validate accuracy change: [0.86]
+
+Round: 2
+Current aggregate accuracy change: [0.9575000000000001, 0.97375]
+[Evaluation] Global model validate accuracy change: [0.86, 0.88]
+
+Round: 3
+Current aggregate accuracy change: [0.9575000000000001, 0.97375, 0.9933333333333334]
+[Evaluation] Global model validate accuracy change: [0.86, 0.88, 0.89]
+
+Round: 4
+Current aggregate accuracy change: [0.9575000000000001, 0.97375, 0.9933333333333334, 0.995]
+[Evaluation] Global model validate accuracy change: [0.86, 0.88, 0.89, 0.89]
+
+Round: 5
+Current aggregate accuracy change: [0.9575000000000001, 0.97375, 0.9933333333333334, 0.995, 0.99875]
+[Evaluation] Global model validate accuracy change: [0.86, 0.88, 0.89, 0.89, 0.93]
+
+Round: 6
+Current aggregate accuracy change: [0.9575000000000001, 0.97375, 0.9933333333333334, 0.995, 0.99875, 1.0]
+[Evaluation] Global model validate accuracy change: [0.86, 0.88, 0.89, 0.89, 0.93, 0.92]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.9291666666666667]
+[Evaluation] Global model validate accuracy change: [0.93]
+
+Round: 2
+Current aggregate accuracy change: [0.9291666666666667, 0.9675]
+[Evaluation] Global model validate accuracy change: [0.93, 0.96]
+
+Round: 3
+Current aggregate accuracy change: [0.9291666666666667, 0.9675, 0.9708333333333332]
+[Evaluation] Global model validate accuracy change: [0.93, 0.96, 0.96]
+
+Round: 4
+Current aggregate accuracy change: [0.9291666666666667, 0.9675, 0.9708333333333332, 0.9741666666666666]
+[Evaluation] Global model validate accuracy change: [0.93, 0.96, 0.96, 0.95]
+
+Round: 5
+Current aggregate accuracy change: [0.9291666666666667, 0.9675, 0.9708333333333332, 0.9741666666666666, 0.98625]
+[Evaluation] Global model validate accuracy change: [0.93, 0.96, 0.96, 0.95, 0.97]
+
+Round: 6
+Current aggregate accuracy change: [0.9291666666666667, 0.9675, 0.9708333333333332, 0.9741666666666666, 0.98625, 0.99]
+[Evaluation] Global model validate accuracy change: [0.93, 0.96, 0.96, 0.95, 0.97, 0.96]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.9495833333333332]
+[Evaluation] Global model validate accuracy change: [0.88]
+
+Round: 2
+Current aggregate accuracy change: [0.9495833333333332, 0.9591666666666667]
+[Evaluation] Global model validate accuracy change: [0.88, 0.88]
+
+Round: 3
+Current aggregate accuracy change: [0.9495833333333332, 0.9591666666666667, 0.9750000000000001]
+[Evaluation] Global model validate accuracy change: [0.88, 0.88, 0.92]
+
+Round: 4
+Current aggregate accuracy change: [0.9495833333333332, 0.9591666666666667, 0.9750000000000001, 0.9812499999999998]
+[Evaluation] Global model validate accuracy change: [0.88, 0.88, 0.92, 0.89]
+
+Round: 5
+Current aggregate accuracy change: [0.9495833333333332, 0.9591666666666667, 0.9750000000000001, 0.9812499999999998, 0.995]
+[Evaluation] Global model validate accuracy change: [0.88, 0.88, 0.92, 0.89, 0.91]
+
+Round: 6
+Current aggregate accuracy change: [0.9495833333333332, 0.9591666666666667, 0.9750000000000001, 0.9812499999999998, 0.995, 0.9925000000000002]
+[Evaluation] Global model validate accuracy change: [0.88, 0.88, 0.92, 0.89, 0.91, 0.91]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.9229166666666666]
+[Evaluation] Global model validate accuracy change: [0.88]
+
+Round: 2
+Current aggregate accuracy change: [0.9229166666666666, 0.9599999999999999]
+[Evaluation] Global model validate accuracy change: [0.88, 0.91]
+
+Round: 3
+Current aggregate accuracy change: [0.9229166666666666, 0.9599999999999999, 0.9724999999999999]
+[Evaluation] Global model validate accuracy change: [0.88, 0.91, 0.91]
+
+Round: 4
+Current aggregate accuracy change: [0.9229166666666666, 0.9599999999999999, 0.9724999999999999, 0.9858333333333333]
+[Evaluation] Global model validate accuracy change: [0.88, 0.91, 0.91, 0.89]
+
+Round: 5
+Current aggregate accuracy change: [0.9229166666666666, 0.9599999999999999, 0.9724999999999999, 0.9858333333333333, 0.99]
+[Evaluation] Global model validate accuracy change: [0.88, 0.91, 0.91, 0.89, 0.9]
+
+Round: 6
+Current aggregate accuracy change: [0.9229166666666666, 0.9599999999999999, 0.9724999999999999, 0.9858333333333333, 0.99, 0.9962500000000001]
+[Evaluation] Global model validate accuracy change: [0.88, 0.91, 0.91, 0.89, 0.9, 0.91]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.9341666666666666]
+[Evaluation] Global model validate accuracy change: [0.93]
+
+Round: 2
+Current aggregate accuracy change: [0.9341666666666666, 0.96]
+[Evaluation] Global model validate accuracy change: [0.93, 0.97]
+
+Round: 3
+Current aggregate accuracy change: [0.9341666666666666, 0.96, 0.9733333333333334]
+[Evaluation] Global model validate accuracy change: [0.93, 0.97, 0.96]
+
+Round: 4
+Current aggregate accuracy change: [0.9341666666666666, 0.96, 0.9733333333333334, 0.9833333333333334]
+[Evaluation] Global model validate accuracy change: [0.93, 0.97, 0.96, 0.97]
+
+Round: 5
+Current aggregate accuracy change: [0.9341666666666666, 0.96, 0.9733333333333334, 0.9833333333333334, 0.9925000000000002]
+[Evaluation] Global model validate accuracy change: [0.93, 0.97, 0.96, 0.97, 0.98]
+
+Round: 6
+Current aggregate accuracy change: [0.9341666666666666, 0.96, 0.9733333333333334, 0.9833333333333334, 0.9925000000000002, 0.9937499999999999]
+[Evaluation] Global model validate accuracy change: [0.93, 0.97, 0.96, 0.97, 0.98, 0.98]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.9315]
+[Evaluation] Global model validate accuracy change: [0.91]
+
+Round: 2
+Current aggregate accuracy change: [0.9315, 0.9742499999999998]
+[Evaluation] Global model validate accuracy change: [0.91, 0.92]
+
+Round: 3
+Current aggregate accuracy change: [0.9315, 0.9742499999999998, 0.987]
+[Evaluation] Global model validate accuracy change: [0.91, 0.92, 0.93]
+
+Round: 4
+Current aggregate accuracy change: [0.9315, 0.9742499999999998, 0.987, 0.98775]
+[Evaluation] Global model validate accuracy change: [0.91, 0.92, 0.93, 0.91]
+
+Round: 5
+Current aggregate accuracy change: [0.9315, 0.9742499999999998, 0.987, 0.98775, 0.9935]
+[Evaluation] Global model validate accuracy change: [0.91, 0.92, 0.93, 0.91, 0.94]
+
+Round: 6
+Current aggregate accuracy change: [0.9315, 0.9742499999999998, 0.987, 0.98775, 0.9935, 0.99375]
+[Evaluation] Global model validate accuracy change: [0.91, 0.92, 0.93, 0.91, 0.94, 0.9]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.9495833333333332]
+[Evaluation] Global model validate accuracy change: [0.9]
+
+Round: 2
+Current aggregate accuracy change: [0.9495833333333332, 0.9708333333333332]
+[Evaluation] Global model validate accuracy change: [0.9, 0.9]
+
+Round: 3
+Current aggregate accuracy change: [0.9495833333333332, 0.9708333333333332, 0.9875]
+[Evaluation] Global model validate accuracy change: [0.9, 0.9, 0.91]
+
+Round: 4
+Current aggregate accuracy change: [0.9495833333333332, 0.9708333333333332, 0.9875, 0.98875]
+[Evaluation] Global model validate accuracy change: [0.9, 0.9, 0.91, 0.91]
+
+Round: 5
+Current aggregate accuracy change: [0.9495833333333332, 0.9708333333333332, 0.9875, 0.98875, 0.9925000000000002]
+[Evaluation] Global model validate accuracy change: [0.9, 0.9, 0.91, 0.91, 0.92]
+
+Round: 6
+Current aggregate accuracy change: [0.9495833333333332, 0.9708333333333332, 0.9875, 0.98875, 0.9925000000000002, 0.995]
+[Evaluation] Global model validate accuracy change: [0.9, 0.9, 0.91, 0.91, 0.92, 0.91]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.95025]
+[Evaluation] Global model validate accuracy change: [0.87]
+
+Round: 2
+Current aggregate accuracy change: [0.95025, 0.9675]
+[Evaluation] Global model validate accuracy change: [0.87, 0.91]
+
+Round: 3
+Current aggregate accuracy change: [0.95025, 0.9675, 0.9822500000000001]
+[Evaluation] Global model validate accuracy change: [0.87, 0.91, 0.92]
+
+Round: 4
+Current aggregate accuracy change: [0.95025, 0.9675, 0.9822500000000001, 0.9910000000000001]
+[Evaluation] Global model validate accuracy change: [0.87, 0.91, 0.92, 0.92]
+
+Round: 5
+Current aggregate accuracy change: [0.95025, 0.9675, 0.9822500000000001, 0.9910000000000001, 0.9950000000000001]
+[Evaluation] Global model validate accuracy change: [0.87, 0.91, 0.92, 0.92, 0.91]
+
+Round: 6
+Current aggregate accuracy change: [0.95025, 0.9675, 0.9822500000000001, 0.9910000000000001, 0.9950000000000001, 0.9962499999999999]
+[Evaluation] Global model validate accuracy change: [0.87, 0.91, 0.92, 0.92, 0.91, 0.91]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.9443055555555554]
+[Evaluation] Global model validate accuracy change: [0.94]
+
+Round: 2
+Current aggregate accuracy change: [0.9443055555555554, 0.9679166666666668]
+[Evaluation] Global model validate accuracy change: [0.94, 0.96]
+
+Round: 3
+Current aggregate accuracy change: [0.9443055555555554, 0.9679166666666668, 0.9812499999999997]
+[Evaluation] Global model validate accuracy change: [0.94, 0.96, 0.94]
+
+Round: 4
+Current aggregate accuracy change: [0.9443055555555554, 0.9679166666666668, 0.9812499999999997, 0.9859722222222224]
+[Evaluation] Global model validate accuracy change: [0.94, 0.96, 0.94, 0.96]
+
+Round: 5
+Current aggregate accuracy change: [0.9443055555555554, 0.9679166666666668, 0.9812499999999997, 0.9859722222222224, 0.9875000000000003]
+[Evaluation] Global model validate accuracy change: [0.94, 0.96, 0.94, 0.96, 0.94]
+
+Round: 6
+Current aggregate accuracy change: [0.9443055555555554, 0.9679166666666668, 0.9812499999999997, 0.9859722222222224, 0.9875000000000003, 0.9937500000000002]
+[Evaluation] Global model validate accuracy change: [0.94, 0.96, 0.94, 0.96, 0.94, 0.95]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.8108333333333333]
+[Evaluation] Global model validate accuracy change: [0.53]
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.8816666666666667]
+[Evaluation] Global model validate accuracy change: [0.54]
+
+Round: 2
+Current aggregate accuracy change: [0.8816666666666667, 0.9104166666666668]
+[Evaluation] Global model validate accuracy change: [0.54, 0.61]
+
+Round: 3
+Current aggregate accuracy change: [0.8816666666666667, 0.9104166666666668, 0.94375]
+[Evaluation] Global model validate accuracy change: [0.54, 0.61, 0.6]
+
+Round: 4
+Current aggregate accuracy change: [0.8816666666666667, 0.9104166666666668, 0.94375, 0.9541666666666667]
+[Evaluation] Global model validate accuracy change: [0.54, 0.61, 0.6, 0.61]
+
+Round: 5
+Current aggregate accuracy change: [0.8816666666666667, 0.9104166666666668, 0.94375, 0.9541666666666667, 0.9541666666666667]
+[Evaluation] Global model validate accuracy change: [0.54, 0.61, 0.6, 0.61, 0.61]
+
+Round: 6
+Current aggregate accuracy change: [0.8816666666666667, 0.9104166666666668, 0.94375, 0.9541666666666667, 0.9541666666666667, 0.9691666666666667]
+[Evaluation] Global model validate accuracy change: [0.54, 0.61, 0.6, 0.61, 0.61, 0.63]
+
+Round: 7
+Current aggregate accuracy change: [0.8816666666666667, 0.9104166666666668, 0.94375, 0.9541666666666667, 0.9541666666666667, 0.9691666666666667, 0.96875]
+[Evaluation] Global model validate accuracy change: [0.54, 0.61, 0.6, 0.61, 0.61, 0.63, 0.62]
+
+Round: 8
+Current aggregate accuracy change: [0.8816666666666667, 0.9104166666666668, 0.94375, 0.9541666666666667, 0.9541666666666667, 0.9691666666666667, 0.96875, 0.9833333333333334]
+[Evaluation] Global model validate accuracy change: [0.54, 0.61, 0.6, 0.61, 0.61, 0.63, 0.62, 0.63]
+
+Round: 9
+Current aggregate accuracy change: [0.8816666666666667, 0.9104166666666668, 0.94375, 0.9541666666666667, 0.9541666666666667, 0.9691666666666667, 0.96875, 0.9833333333333334, 0.9745833333333334]
+[Evaluation] Global model validate accuracy change: [0.54, 0.61, 0.6, 0.61, 0.61, 0.63, 0.62, 0.63, 0.64]
+
+Round: 10
+Current aggregate accuracy change: [0.8816666666666667, 0.9104166666666668, 0.94375, 0.9541666666666667, 0.9541666666666667, 0.9691666666666667, 0.96875, 0.9833333333333334, 0.9745833333333334, 0.9766666666666667]
+[Evaluation] Global model validate accuracy change: [0.54, 0.61, 0.6, 0.61, 0.61, 0.63, 0.62, 0.63, 0.64, 0.59]
+
+Round: 11
+Current aggregate accuracy change: [0.8816666666666667, 0.9104166666666668, 0.94375, 0.9541666666666667, 0.9541666666666667, 0.9691666666666667, 0.96875, 0.9833333333333334, 0.9745833333333334, 0.9766666666666667, 0.9883333333333333]
+[Evaluation] Global model validate accuracy change: [0.54, 0.61, 0.6, 0.61, 0.61, 0.63, 0.62, 0.63, 0.64, 0.59, 0.65]
+
+Round: 12
+Current aggregate accuracy change: [0.8816666666666667, 0.9104166666666668, 0.94375, 0.9541666666666667, 0.9541666666666667, 0.9691666666666667, 0.96875, 0.9833333333333334, 0.9745833333333334, 0.9766666666666667, 0.9883333333333333, 0.98875]
+[Evaluation] Global model validate accuracy change: [0.54, 0.61, 0.6, 0.61, 0.61, 0.63, 0.62, 0.63, 0.64, 0.59, 0.65, 0.68]
+
+Round: 13
+Current aggregate accuracy change: [0.8816666666666667, 0.9104166666666668, 0.94375, 0.9541666666666667, 0.9541666666666667, 0.9691666666666667, 0.96875, 0.9833333333333334, 0.9745833333333334, 0.9766666666666667, 0.9883333333333333, 0.98875, 0.9929166666666667]
+[Evaluation] Global model validate accuracy change: [0.54, 0.61, 0.6, 0.61, 0.61, 0.63, 0.62, 0.63, 0.64, 0.59, 0.65, 0.68, 0.65]
+
+Round: 14
+Current aggregate accuracy change: [0.8816666666666667, 0.9104166666666668, 0.94375, 0.9541666666666667, 0.9541666666666667, 0.9691666666666667, 0.96875, 0.9833333333333334, 0.9745833333333334, 0.9766666666666667, 0.9883333333333333, 0.98875, 0.9929166666666667, 0.9916666666666667]
+[Evaluation] Global model validate accuracy change: [0.54, 0.61, 0.6, 0.61, 0.61, 0.63, 0.62, 0.63, 0.64, 0.59, 0.65, 0.68, 0.65, 0.7]
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.549375]
+[Evaluation] Global model validate accuracy change: [0.51]
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.8262499999999999]
+[Evaluation] Global model validate accuracy change: [0.52]
+
+Round: 2
+Current aggregate accuracy change: [0.8262499999999999, 0.8701785714285715]
+[Evaluation] Global model validate accuracy change: [0.52, 0.49]
+
+Round: 3
+Current aggregate accuracy change: [0.8262499999999999, 0.8701785714285715, 0.9026785714285714]
+[Evaluation] Global model validate accuracy change: [0.52, 0.49, 0.56]
+
+Round: 4
+Current aggregate accuracy change: [0.8262499999999999, 0.8701785714285715, 0.9026785714285714, 0.9249999999999999]
+[Evaluation] Global model validate accuracy change: [0.52, 0.49, 0.56, 0.59]
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.8845000000000001]
+[Evaluation] Global model validate accuracy change: [0.37]
+
+Round: 2
+Current aggregate accuracy change: [0.8845000000000001, 0.9117500000000001]
+[Evaluation] Global model validate accuracy change: [0.37, 0.49]
+
+Round: 3
+Current aggregate accuracy change: [0.8845000000000001, 0.9117500000000001, 0.91825]
+[Evaluation] Global model validate accuracy change: [0.37, 0.49, 0.53]
+
+Round: 4
+Current aggregate accuracy change: [0.8845000000000001, 0.9117500000000001, 0.91825, 0.94375]
+[Evaluation] Global model validate accuracy change: [0.37, 0.49, 0.53, 0.54]
+
+Round: 5
+Current aggregate accuracy change: [0.8845000000000001, 0.9117500000000001, 0.91825, 0.94375, 0.9515]
+[Evaluation] Global model validate accuracy change: [0.37, 0.49, 0.53, 0.54, 0.54]
+
+Round: 6
+Current aggregate accuracy change: [0.8845000000000001, 0.9117500000000001, 0.91825, 0.94375, 0.9515, 0.94525]
+[Evaluation] Global model validate accuracy change: [0.37, 0.49, 0.53, 0.54, 0.54, 0.53]
+
+Round: 7
+Current aggregate accuracy change: [0.8845000000000001, 0.9117500000000001, 0.91825, 0.94375, 0.9515, 0.94525, 0.9722500000000001]
+[Evaluation] Global model validate accuracy change: [0.37, 0.49, 0.53, 0.54, 0.54, 0.53, 0.57]
+
+Round: 8
+Current aggregate accuracy change: [0.8845000000000001, 0.9117500000000001, 0.91825, 0.94375, 0.9515, 0.94525, 0.9722500000000001, 0.9627500000000001]
+[Evaluation] Global model validate accuracy change: [0.37, 0.49, 0.53, 0.54, 0.54, 0.53, 0.57, 0.52]
+
+Round: 9
+Current aggregate accuracy change: [0.8845000000000001, 0.9117500000000001, 0.91825, 0.94375, 0.9515, 0.94525, 0.9722500000000001, 0.9627500000000001, 0.9722500000000001]
+[Evaluation] Global model validate accuracy change: [0.37, 0.49, 0.53, 0.54, 0.54, 0.53, 0.57, 0.52, 0.55]
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.9252499999999999]
+[Evaluation] Global model validate accuracy change: [0.18]
+
+Round: 2
+Current aggregate accuracy change: [0.9252499999999999, 0.9480000000000001]
+[Evaluation] Global model validate accuracy change: [0.18, 0.22]
+
+Round: 3
+Current aggregate accuracy change: [0.9252499999999999, 0.9480000000000001, 0.9475]
+[Evaluation] Global model validate accuracy change: [0.18, 0.22, 0.27]
+
+Round: 4
+Current aggregate accuracy change: [0.9252499999999999, 0.9480000000000001, 0.9475, 0.9552499999999999]
+[Evaluation] Global model validate accuracy change: [0.18, 0.22, 0.27, 0.3]
+
+Round: 5
+Current aggregate accuracy change: [0.9252499999999999, 0.9480000000000001, 0.9475, 0.9552499999999999, 0.9610000000000001]
+[Evaluation] Global model validate accuracy change: [0.18, 0.22, 0.27, 0.3, 0.35]
+
+Round: 6
+Current aggregate accuracy change: [0.9252499999999999, 0.9480000000000001, 0.9475, 0.9552499999999999, 0.9610000000000001, 0.9735]
+[Evaluation] Global model validate accuracy change: [0.18, 0.22, 0.27, 0.3, 0.35, 0.35]
+
+Round: 7
+Current aggregate accuracy change: [0.9252499999999999, 0.9480000000000001, 0.9475, 0.9552499999999999, 0.9610000000000001, 0.9735, 0.9737499999999999]
+[Evaluation] Global model validate accuracy change: [0.18, 0.22, 0.27, 0.3, 0.35, 0.35, 0.37]
+
+Round: 8
+Current aggregate accuracy change: [0.9252499999999999, 0.9480000000000001, 0.9475, 0.9552499999999999, 0.9610000000000001, 0.9735, 0.9737499999999999, 0.98]
+[Evaluation] Global model validate accuracy change: [0.18, 0.22, 0.27, 0.3, 0.35, 0.35, 0.37, 0.37]
+
+Round: 9
+Current aggregate accuracy change: [0.9252499999999999, 0.9480000000000001, 0.9475, 0.9552499999999999, 0.9610000000000001, 0.9735, 0.9737499999999999, 0.98, 0.978]
+[Evaluation] Global model validate accuracy change: [0.18, 0.22, 0.27, 0.3, 0.35, 0.35, 0.37, 0.37, 0.36]
+
+Round: 10
+Current aggregate accuracy change: [0.9252499999999999, 0.9480000000000001, 0.9475, 0.9552499999999999, 0.9610000000000001, 0.9735, 0.9737499999999999, 0.98, 0.978, 0.9755]
+[Evaluation] Global model validate accuracy change: [0.18, 0.22, 0.27, 0.3, 0.35, 0.35, 0.37, 0.37, 0.36, 0.37]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.942]
+[Evaluation] Global model validate accuracy change: [0.93]
+
+Round: 2
+Current aggregate accuracy change: [0.942, 0.9567499999999999]
+[Evaluation] Global model validate accuracy change: [0.93, 0.94]
+
+Round: 3
+Current aggregate accuracy change: [0.942, 0.9567499999999999, 0.9645]
+[Evaluation] Global model validate accuracy change: [0.93, 0.94, 0.95]
+
+Round: 4
+Current aggregate accuracy change: [0.942, 0.9567499999999999, 0.9645, 0.96975]
+[Evaluation] Global model validate accuracy change: [0.93, 0.94, 0.95, 0.95]
+
+Round: 5
+Current aggregate accuracy change: [0.942, 0.9567499999999999, 0.9645, 0.96975, 0.97675]
+[Evaluation] Global model validate accuracy change: [0.93, 0.94, 0.95, 0.95, 0.95]
+
+Round: 6
+Current aggregate accuracy change: [0.942, 0.9567499999999999, 0.9645, 0.96975, 0.97675, 0.97925]
+[Evaluation] Global model validate accuracy change: [0.93, 0.94, 0.95, 0.95, 0.95, 0.95]
+
+Round: 7
+Current aggregate accuracy change: [0.942, 0.9567499999999999, 0.9645, 0.96975, 0.97675, 0.97925, 0.9792500000000001]
+[Evaluation] Global model validate accuracy change: [0.93, 0.94, 0.95, 0.95, 0.95, 0.95, 0.95]
+
+Round: 8
+Current aggregate accuracy change: [0.942, 0.9567499999999999, 0.9645, 0.96975, 0.97675, 0.97925, 0.9792500000000001, 0.984]
+[Evaluation] Global model validate accuracy change: [0.93, 0.94, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95]
+
+Round: 9
+Current aggregate accuracy change: [0.942, 0.9567499999999999, 0.9645, 0.96975, 0.97675, 0.97925, 0.9792500000000001, 0.984, 0.9834999999999999]
+[Evaluation] Global model validate accuracy change: [0.93, 0.94, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95]
+
+Round: 10
+Current aggregate accuracy change: [0.942, 0.9567499999999999, 0.9645, 0.96975, 0.97675, 0.97925, 0.9792500000000001, 0.984, 0.9834999999999999, 0.98725]
+[Evaluation] Global model validate accuracy change: [0.93, 0.94, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.96]
+
+Round: 11
+Current aggregate accuracy change: [0.942, 0.9567499999999999, 0.9645, 0.96975, 0.97675, 0.97925, 0.9792500000000001, 0.984, 0.9834999999999999, 0.98725, 0.9894999999999998]
+[Evaluation] Global model validate accuracy change: [0.93, 0.94, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.96, 0.94]
+
+Round: 12
+Current aggregate accuracy change: [0.942, 0.9567499999999999, 0.9645, 0.96975, 0.97675, 0.97925, 0.9792500000000001, 0.984, 0.9834999999999999, 0.98725, 0.9894999999999998, 0.98675]
+[Evaluation] Global model validate accuracy change: [0.93, 0.94, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.96, 0.94, 0.95]
+
+Round: 13
+Current aggregate accuracy change: [0.942, 0.9567499999999999, 0.9645, 0.96975, 0.97675, 0.97925, 0.9792500000000001, 0.984, 0.9834999999999999, 0.98725, 0.9894999999999998, 0.98675, 0.991]
+[Evaluation] Global model validate accuracy change: [0.93, 0.94, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.96, 0.94, 0.95, 0.96]
+
+Round: 14
+Current aggregate accuracy change: [0.942, 0.9567499999999999, 0.9645, 0.96975, 0.97675, 0.97925, 0.9792500000000001, 0.984, 0.9834999999999999, 0.98725, 0.9894999999999998, 0.98675, 0.991, 0.9885000000000002]
+[Evaluation] Global model validate accuracy change: [0.93, 0.94, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.96, 0.94, 0.95, 0.96, 0.95]
+
+Round: 15
+Current aggregate accuracy change: [0.942, 0.9567499999999999, 0.9645, 0.96975, 0.97675, 0.97925, 0.9792500000000001, 0.984, 0.9834999999999999, 0.98725, 0.9894999999999998, 0.98675, 0.991, 0.9885000000000002, 0.99275]
+[Evaluation] Global model validate accuracy change: [0.93, 0.94, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.96, 0.94, 0.95, 0.96, 0.95, 0.95]
+
+Round: 16
+Current aggregate accuracy change: [0.942, 0.9567499999999999, 0.9645, 0.96975, 0.97675, 0.97925, 0.9792500000000001, 0.984, 0.9834999999999999, 0.98725, 0.9894999999999998, 0.98675, 0.991, 0.9885000000000002, 0.99275, 0.99275]
+[Evaluation] Global model validate accuracy change: [0.93, 0.94, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.96, 0.94, 0.95, 0.96, 0.95, 0.95, 0.96]
+
+Round: 17
+Current aggregate accuracy change: [0.942, 0.9567499999999999, 0.9645, 0.96975, 0.97675, 0.97925, 0.9792500000000001, 0.984, 0.9834999999999999, 0.98725, 0.9894999999999998, 0.98675, 0.991, 0.9885000000000002, 0.99275, 0.99275, 0.99325]
+[Evaluation] Global model validate accuracy change: [0.93, 0.94, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.96, 0.94, 0.95, 0.96, 0.95, 0.95, 0.96, 0.96]
+
+Round: 18
+Current aggregate accuracy change: [0.942, 0.9567499999999999, 0.9645, 0.96975, 0.97675, 0.97925, 0.9792500000000001, 0.984, 0.9834999999999999, 0.98725, 0.9894999999999998, 0.98675, 0.991, 0.9885000000000002, 0.99275, 0.99275, 0.99325, 0.9925]
+[Evaluation] Global model validate accuracy change: [0.93, 0.94, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.96, 0.94, 0.95, 0.96, 0.95, 0.95, 0.96, 0.96, 0.96]
+
+Round: 19
+Current aggregate accuracy change: [0.942, 0.9567499999999999, 0.9645, 0.96975, 0.97675, 0.97925, 0.9792500000000001, 0.984, 0.9834999999999999, 0.98725, 0.9894999999999998, 0.98675, 0.991, 0.9885000000000002, 0.99275, 0.99275, 0.99325, 0.9925, 0.99425]
+[Evaluation] Global model validate accuracy change: [0.93, 0.94, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.96, 0.94, 0.95, 0.96, 0.95, 0.95, 0.96, 0.96, 0.96, 0.95]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.9332142857142858]
+[Evaluation] Global model validate accuracy change: [0.96]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.9401785714285714]
+[Evaluation] Global model validate accuracy change: [0.94]
+
+Round: 2
+Current aggregate accuracy change: [0.9401785714285714, 0.9567857142857144]
+[Evaluation] Global model validate accuracy change: [0.94, 0.94]
+
+Round: 3
+Current aggregate accuracy change: [0.9401785714285714, 0.9567857142857144, 0.9637500000000001]
+[Evaluation] Global model validate accuracy change: [0.94, 0.94, 0.94]
+
+Round: 4
+Current aggregate accuracy change: [0.9401785714285714, 0.9567857142857144, 0.9637500000000001, 0.9671428571428571]
+[Evaluation] Global model validate accuracy change: [0.94, 0.94, 0.94, 0.93]
+
+Round: 5
+Current aggregate accuracy change: [0.9401785714285714, 0.9567857142857144, 0.9637500000000001, 0.9671428571428571, 0.9728571428571429]
+[Evaluation] Global model validate accuracy change: [0.94, 0.94, 0.94, 0.93, 0.94]
+
+Round: 6
+Current aggregate accuracy change: [0.9401785714285714, 0.9567857142857144, 0.9637500000000001, 0.9671428571428571, 0.9728571428571429, 0.9707142857142856]
+[Evaluation] Global model validate accuracy change: [0.94, 0.94, 0.94, 0.93, 0.94, 0.94]
+
+Round: 7
+Current aggregate accuracy change: [0.9401785714285714, 0.9567857142857144, 0.9637500000000001, 0.9671428571428571, 0.9728571428571429, 0.9707142857142856, 0.97875]
+[Evaluation] Global model validate accuracy change: [0.94, 0.94, 0.94, 0.93, 0.94, 0.94, 0.95]
+
+Round: 8
+Current aggregate accuracy change: [0.9401785714285714, 0.9567857142857144, 0.9637500000000001, 0.9671428571428571, 0.9728571428571429, 0.9707142857142856, 0.97875, 0.9783928571428572]
+[Evaluation] Global model validate accuracy change: [0.94, 0.94, 0.94, 0.93, 0.94, 0.94, 0.95, 0.95]
+
+Round: 9
+Current aggregate accuracy change: [0.9401785714285714, 0.9567857142857144, 0.9637500000000001, 0.9671428571428571, 0.9728571428571429, 0.9707142857142856, 0.97875, 0.9783928571428572, 0.9816071428571429]
+[Evaluation] Global model validate accuracy change: [0.94, 0.94, 0.94, 0.93, 0.94, 0.94, 0.95, 0.95, 0.95]
+
+Round: 10
+Current aggregate accuracy change: [0.9401785714285714, 0.9567857142857144, 0.9637500000000001, 0.9671428571428571, 0.9728571428571429, 0.9707142857142856, 0.97875, 0.9783928571428572, 0.9816071428571429, 0.9819642857142856]
+[Evaluation] Global model validate accuracy change: [0.94, 0.94, 0.94, 0.93, 0.94, 0.94, 0.95, 0.95, 0.95, 0.95]
+
+Round: 11
+Current aggregate accuracy change: [0.9401785714285714, 0.9567857142857144, 0.9637500000000001, 0.9671428571428571, 0.9728571428571429, 0.9707142857142856, 0.97875, 0.9783928571428572, 0.9816071428571429, 0.9819642857142856, 0.9832142857142858]
+[Evaluation] Global model validate accuracy change: [0.94, 0.94, 0.94, 0.93, 0.94, 0.94, 0.95, 0.95, 0.95, 0.95, 0.95]
+
+Round: 12
+Current aggregate accuracy change: [0.9401785714285714, 0.9567857142857144, 0.9637500000000001, 0.9671428571428571, 0.9728571428571429, 0.9707142857142856, 0.97875, 0.9783928571428572, 0.9816071428571429, 0.9819642857142856, 0.9832142857142858, 0.9853571428571428]
+[Evaluation] Global model validate accuracy change: [0.94, 0.94, 0.94, 0.93, 0.94, 0.94, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95]
+
+Round: 13
+Current aggregate accuracy change: [0.9401785714285714, 0.9567857142857144, 0.9637500000000001, 0.9671428571428571, 0.9728571428571429, 0.9707142857142856, 0.97875, 0.9783928571428572, 0.9816071428571429, 0.9819642857142856, 0.9832142857142858, 0.9853571428571428, 0.9866071428571429]
+[Evaluation] Global model validate accuracy change: [0.94, 0.94, 0.94, 0.93, 0.94, 0.94, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95]
+
+Round: 14
+Current aggregate accuracy change: [0.9401785714285714, 0.9567857142857144, 0.9637500000000001, 0.9671428571428571, 0.9728571428571429, 0.9707142857142856, 0.97875, 0.9783928571428572, 0.9816071428571429, 0.9819642857142856, 0.9832142857142858, 0.9853571428571428, 0.9866071428571429, 0.984642857142857]
+[Evaluation] Global model validate accuracy change: [0.94, 0.94, 0.94, 0.93, 0.94, 0.94, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95]
+
+Round: 15
+Current aggregate accuracy change: [0.9401785714285714, 0.9567857142857144, 0.9637500000000001, 0.9671428571428571, 0.9728571428571429, 0.9707142857142856, 0.97875, 0.9783928571428572, 0.9816071428571429, 0.9819642857142856, 0.9832142857142858, 0.9853571428571428, 0.9866071428571429, 0.984642857142857, 0.9875]
+[Evaluation] Global model validate accuracy change: [0.94, 0.94, 0.94, 0.93, 0.94, 0.94, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95]
+
+Round: 16
+Current aggregate accuracy change: [0.9401785714285714, 0.9567857142857144, 0.9637500000000001, 0.9671428571428571, 0.9728571428571429, 0.9707142857142856, 0.97875, 0.9783928571428572, 0.9816071428571429, 0.9819642857142856, 0.9832142857142858, 0.9853571428571428, 0.9866071428571429, 0.984642857142857, 0.9875, 0.9880357142857144]
+[Evaluation] Global model validate accuracy change: [0.94, 0.94, 0.94, 0.93, 0.94, 0.94, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95]
+
+Round: 17
+Current aggregate accuracy change: [0.9401785714285714, 0.9567857142857144, 0.9637500000000001, 0.9671428571428571, 0.9728571428571429, 0.9707142857142856, 0.97875, 0.9783928571428572, 0.9816071428571429, 0.9819642857142856, 0.9832142857142858, 0.9853571428571428, 0.9866071428571429, 0.984642857142857, 0.9875, 0.9880357142857144, 0.9880357142857142]
+[Evaluation] Global model validate accuracy change: [0.94, 0.94, 0.94, 0.93, 0.94, 0.94, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95]
+
+Round: 18
+Current aggregate accuracy change: [0.9401785714285714, 0.9567857142857144, 0.9637500000000001, 0.9671428571428571, 0.9728571428571429, 0.9707142857142856, 0.97875, 0.9783928571428572, 0.9816071428571429, 0.9819642857142856, 0.9832142857142858, 0.9853571428571428, 0.9866071428571429, 0.984642857142857, 0.9875, 0.9880357142857144, 0.9880357142857142, 0.9894642857142857]
+[Evaluation] Global model validate accuracy change: [0.94, 0.94, 0.94, 0.93, 0.94, 0.94, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+Round: 0
+Current aggregate accuracy change: []
+[Evaluation] Global model validate accuracy change: []
+
+Round: 1
+Current aggregate accuracy change: [0.9771428571428571]
+[Evaluation] Global model validate accuracy change: [0.28]
+
+Round: 2
+Current aggregate accuracy change: [0.9771428571428571, 0.9778571428571429]
+[Evaluation] Global model validate accuracy change: [0.28, 0.36]
+
+Round: 3
+Current aggregate accuracy change: [0.9771428571428571, 0.9778571428571429, 0.9649999999999999]
+[Evaluation] Global model validate accuracy change: [0.28, 0.36, 0.39]
+
+Round: 4
+Current aggregate accuracy change: [0.9771428571428571, 0.9778571428571429, 0.9649999999999999, 0.9828571428571427]
+[Evaluation] Global model validate accuracy change: [0.28, 0.36, 0.39, 0.39]
+
+Round: 5
+Current aggregate accuracy change: [0.9771428571428571, 0.9778571428571429, 0.9649999999999999, 0.9828571428571427, 0.9914285714285713]
+[Evaluation] Global model validate accuracy change: [0.28, 0.36, 0.39, 0.39, 0.42]
+
+Round: 6
+Current aggregate accuracy change: [0.9771428571428571, 0.9778571428571429, 0.9649999999999999, 0.9828571428571427, 0.9914285714285713, 0.9821428571428571]
+[Evaluation] Global model validate accuracy change: [0.28, 0.36, 0.39, 0.39, 0.42, 0.44]
+
+Round: 7
+Current aggregate accuracy change: [0.9771428571428571, 0.9778571428571429, 0.9649999999999999, 0.9828571428571427, 0.9914285714285713, 0.9821428571428571, 0.9550000000000001]
+[Evaluation] Global model validate accuracy change: [0.28, 0.36, 0.39, 0.39, 0.42, 0.44, 0.43]
+
+Round: 8
+Current aggregate accuracy change: [0.9771428571428571, 0.9778571428571429, 0.9649999999999999, 0.9828571428571427, 0.9914285714285713, 0.9821428571428571, 0.9550000000000001, 0.9885714285714284]
+[Evaluation] Global model validate accuracy change: [0.28, 0.36, 0.39, 0.39, 0.42, 0.44, 0.43, 0.44]
+
+Round: 9
+Current aggregate accuracy change: [0.9771428571428571, 0.9778571428571429, 0.9649999999999999, 0.9828571428571427, 0.9914285714285713, 0.9821428571428571, 0.9550000000000001, 0.9885714285714284, 0.9892857142857143]
+[Evaluation] Global model validate accuracy change: [0.28, 0.36, 0.39, 0.39, 0.42, 0.44, 0.43, 0.44, 0.44]
+
+Round: 10
+Current aggregate accuracy change: [0.9771428571428571, 0.9778571428571429, 0.9649999999999999, 0.9828571428571427, 0.9914285714285713, 0.9821428571428571, 0.9550000000000001, 0.9885714285714284, 0.9892857142857143, 0.9914285714285713]
+[Evaluation] Global model validate accuracy change: [0.28, 0.36, 0.39, 0.39, 0.42, 0.44, 0.43, 0.44, 0.44, 0.44]
+
+Round: 11
+Current aggregate accuracy change: [0.9771428571428571, 0.9778571428571429, 0.9649999999999999, 0.9828571428571427, 0.9914285714285713, 0.9821428571428571, 0.9550000000000001, 0.9885714285714284, 0.9892857142857143, 0.9914285714285713, 0.9864285714285714]
+[Evaluation] Global model validate accuracy change: [0.28, 0.36, 0.39, 0.39, 0.42, 0.44, 0.43, 0.44, 0.44, 0.44, 0.43]
+
+Round: 12
+Current aggregate accuracy change: [0.9771428571428571, 0.9778571428571429, 0.9649999999999999, 0.9828571428571427, 0.9914285714285713, 0.9821428571428571, 0.9550000000000001, 0.9885714285714284, 0.9892857142857143, 0.9914285714285713, 0.9864285714285714, 0.9842857142857142]
+[Evaluation] Global model validate accuracy change: [0.28, 0.36, 0.39, 0.39, 0.42, 0.44, 0.43, 0.44, 0.44, 0.44, 0.43, 0.44]
+
+Round: 13
+Current aggregate accuracy change: [0.9771428571428571, 0.9778571428571429, 0.9649999999999999, 0.9828571428571427, 0.9914285714285713, 0.9821428571428571, 0.9550000000000001, 0.9885714285714284, 0.9892857142857143, 0.9914285714285713, 0.9864285714285714, 0.9842857142857142, 0.992142857142857]
+[Evaluation] Global model validate accuracy change: [0.28, 0.36, 0.39, 0.39, 0.42, 0.44, 0.43, 0.44, 0.44, 0.44, 0.43, 0.44, 0.42]
+
+Round: 14
+Current aggregate accuracy change: [0.9771428571428571, 0.9778571428571429, 0.9649999999999999, 0.9828571428571427, 0.9914285714285713, 0.9821428571428571, 0.9550000000000001, 0.9885714285714284, 0.9892857142857143, 0.9914285714285713, 0.9864285714285714, 0.9842857142857142, 0.992142857142857, 0.9892857142857143]
+[Evaluation] Global model validate accuracy change: [0.28, 0.36, 0.39, 0.39, 0.42, 0.44, 0.43, 0.44, 0.44, 0.44, 0.43, 0.44, 0.42, 0.45]
+
+Round: 15
+Current aggregate accuracy change: [0.9771428571428571, 0.9778571428571429, 0.9649999999999999, 0.9828571428571427, 0.9914285714285713, 0.9821428571428571, 0.9550000000000001, 0.9885714285714284, 0.9892857142857143, 0.9914285714285713, 0.9864285714285714, 0.9842857142857142, 0.992142857142857, 0.9892857142857143, 0.9914285714285713]
+[Evaluation] Global model validate accuracy change: [0.28, 0.36, 0.39, 0.39, 0.42, 0.44, 0.43, 0.44, 0.44, 0.44, 0.43, 0.44, 0.42, 0.45, 0.46]
+
+Round: 16
+Current aggregate accuracy change: [0.9771428571428571, 0.9778571428571429, 0.9649999999999999, 0.9828571428571427, 0.9914285714285713, 0.9821428571428571, 0.9550000000000001, 0.9885714285714284, 0.9892857142857143, 0.9914285714285713, 0.9864285714285714, 0.9842857142857142, 0.992142857142857, 0.9892857142857143, 0.9914285714285713, 0.9835714285714283]
+[Evaluation] Global model validate accuracy change: [0.28, 0.36, 0.39, 0.39, 0.42, 0.44, 0.43, 0.44, 0.44, 0.44, 0.43, 0.44, 0.42, 0.45, 0.46, 0.47]
+
+Round: 17
+Current aggregate accuracy change: [0.9771428571428571, 0.9778571428571429, 0.9649999999999999, 0.9828571428571427, 0.9914285714285713, 0.9821428571428571, 0.9550000000000001, 0.9885714285714284, 0.9892857142857143, 0.9914285714285713, 0.9864285714285714, 0.9842857142857142, 0.992142857142857, 0.9892857142857143, 0.9914285714285713, 0.9835714285714283, 0.9942857142857142]
+[Evaluation] Global model validate accuracy change: [0.28, 0.36, 0.39, 0.39, 0.42, 0.44, 0.43, 0.44, 0.44, 0.44, 0.43, 0.44, 0.42, 0.45, 0.46, 0.47, 0.49]
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 32, 32, 3),(800, 10),(100, 32, 32, 3),(100, 10),(400, 32, 32, 3),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
+train:test:valid = (800, 28, 28, 1),(800, 10),(100, 28, 28, 1),(100, 10),(400, 28, 28, 1),(400, 10)
+
