@@ -1,0 +1,5 @@
+tensorflow
+numpy==1.18
+grpcio
+grpcio-tools
+tensorflow_datasets
