@@ -165,6 +165,8 @@ class COKrumGAR(_GAR):
         for i in range(len(gradients)):
             reshape_gradients[i] = tf.reshape(gradients[i],[-1])
     grad_avg = native.instantiate_op(type(self).co_name, tf.parallel_stack(gradients), f=self.__nbbyzwrks, m=self.__nbselected)
+    # lib = tf.load_op_library('/home/starly/Desktop/Fed/autodist/autodist/native/op_krum.so')
+    # grad_avg = lib.Krum(gradients=tf.parallel_stack(gradients), f=self.__nbbyzwrks, m=self.__nbselected)
     if len(shape) == 2 and shape[1] == 10:
         #x = tf.placeholder(tf.float32, shape=[10,None], name="tmp")
         #grad_avg = tf.reshape(grad_avg, shape=[tf.shape(x)[0],10])
