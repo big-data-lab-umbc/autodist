@@ -148,7 +148,7 @@ class GraphTransformer:
             GraphItem
         """
         new_graph_item = graph_item
-        BFTaggregator = aggregathor.aggregators.instantiate("krum-co", 7, 0, []) # median, krum-co, average, bulyan-co
+        BFTaggregator = aggregathor.aggregators.instantiate("median", 4, 0, []) # median, krum-co, krum-tf(2.1.0), average, bulyan-co
         for var_name, syncer in self._synchronizers.items():
             new_graph_item = syncer.in_graph_apply(new_graph_item, var_name, BFTaggregator)
         return new_graph_item

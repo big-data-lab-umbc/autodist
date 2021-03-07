@@ -117,8 +117,8 @@ class TFKrumGAR(_GAR):
       for i in range(self.__nbworkers - 1):
         dists = list()
         for j in range(i + 1, self.__nbworkers):
-          sqr_dst = tf.reduce_sum(tf.squared_difference(gradients[i], gradients[j]))
-          dists.append(tf.negative(tf.where(tf.is_finite(sqr_dst), sqr_dst, tf.constant(np.inf, dtype=sqr_dst.dtype)))) # Use of 'negative' to get the smallest distances and score indexes in 'nn.top_k'
+          sqr_dst = tf.reduce_sum(tf.math.squared_difference(gradients[i], gradients[j]))
+          dists.append(tf.negative(tf.where(tf.math.is_finite(sqr_dst), sqr_dst, tf.constant(np.inf, dtype=sqr_dst.dtype)))) # Use of 'negative' to get the smallest distances and score indexes in 'nn.top_k'
         distances.append(dists)
       # Score computations
       scores = []

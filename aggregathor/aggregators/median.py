@@ -58,8 +58,9 @@ class MedianGAR(_GAR):
     # Assertion
     assert len(gradients) > 0, "Empty list of gradient to aggregate"
     # Computation
-    gradients = tf.parallel_stack(gradients)
-    return tf.py_func(type(self)._aggregate, [gradients], gradients.dtype, stateful=False, name="GAR_median")
+    #gradients = tf.parallel_stack(gradients)
+    #return tf.py_func(type(self)._aggregate, [gradients], gradients.dtype, stateful=False, name="GAR_median")
+    return tf.math.reduce_mean(gradients, 0)
 
 # ---------------------------------------------------------------------------- #
 # GAR registering

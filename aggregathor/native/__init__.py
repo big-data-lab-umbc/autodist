@@ -389,6 +389,7 @@ def _loader_ops(so_path):
       while True:
         opname = entries.pop().ListFields()[0][1]
         opname = _camel_to_snake(opname)
+        #opname = "bulyan"
         register_op(opname, getattr(lib, opname))
     except IndexError:
       pass
