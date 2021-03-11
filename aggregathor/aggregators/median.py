@@ -31,6 +31,7 @@
 ###
 
 import tensorflow as tf
+from tensorflow.python.ops import math_ops
 
 from . import _GAR, register, deprecated_native
 
@@ -60,7 +61,7 @@ class MedianGAR(_GAR):
     # Computation
     #gradients = tf.parallel_stack(gradients)
     #return tf.py_func(type(self)._aggregate, [gradients], gradients.dtype, stateful=False, name="GAR_median")
-    return tf.math.reduce_mean(gradients, 0)
+    return math_ops.reduce_mean(gradients, 0, name="GAR_median")
 
 # ---------------------------------------------------------------------------- #
 # GAR registering

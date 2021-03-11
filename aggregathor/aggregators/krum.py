@@ -96,7 +96,6 @@ class PYKrumGAR(_GAR):
     # Assertion
     assert len(gradients) > 0, "Empty list of gradient to aggregate"
     # Computation
-    gradients = [gradients[0],gradients[1]]
     return tf.py_func(self._aggregate, gradients, gradients[0].dtype, stateful=False, name="GAR_krum")
 
 class TFKrumGAR(_GAR):
@@ -138,7 +137,63 @@ class TFKrumGAR(_GAR):
       gradients = tf.parallel_stack(gradients)
       scores = tf.parallel_stack(scores)
       _, indexes = tf.nn.top_k(scores, k=self.__nbselected, sorted=False)
-      return tf.reduce_mean(tf.gather(gradients, indexes), axis=0)
+      grad_avg = tf.reduce_mean(tf.gather(gradients, indexes), axis=0)
+      return grad_avg
+
+# class TFKrumGAR(_GAR):
+#   """ Full-TensorFlow Multi-Krum GAR class.
+#   """
+
+#   def __init__(self, nbworkers, nbbyzwrks, args):
+#     self.__nbworkers  = nbworkers
+#     self.__nbbyzwrks  = nbbyzwrks
+#     self.__nbselected = nbworkers - nbbyzwrks - 2
+
+#   def aggregate(self, gradients):
+#     with tf.name_scope("GAR_krum_tf"):
+#       # Assertion
+#       assert len(gradients) > 0, "Empty list of gradient to aggregate"
+#       # Distance computations
+#       distances = []
+#       reshape_gradients = gradients
+#       shape = gradients[0].shape
+#       if len(shape) == 2 and shape[1] == 10:
+#           for i in range(len(gradients)):
+#               reshape_gradients[i] = tf.reshape(gradients[i],[54080,])
+#       else:
+#           for i in range(len(gradients)):
+#               reshape_gradients[i] = tf.reshape(gradients[i],[-1])
+      
+#       for i in range(self.__nbworkers - 1):
+#         dists = list()
+#         for j in range(i + 1, self.__nbworkers):
+#           sqr_dst = tf.reduce_sum(tf.math.squared_difference(gradients[i], gradients[j]))
+#           dists.append(tf.negative(tf.where(tf.math.is_finite(sqr_dst), sqr_dst, tf.constant(np.inf, dtype=sqr_dst.dtype)))) # Use of 'negative' to get the smallest distances and score indexes in 'nn.top_k'
+#         distances.append(dists)
+#       # Score computations
+#       scores = []
+#       for i in range(self.__nbworkers):
+#         dists = []
+#         for j in range(self.__nbworkers):
+#           if j == i:
+#             continue
+#           if j < i:
+#             dists.append(distances[j][i - j - 1])
+#           else:
+#             dists.append(distances[i][j - i - 1])
+#         dists = tf.parallel_stack(dists)
+#         dists, _ = tf.nn.top_k(dists, k=(self.__nbworkers - self.__nbbyzwrks - 2), sorted=False)
+#         scores.append(tf.reduce_sum(dists))
+#       # Average of the 'nbselected' smallest scoring gradients
+#       gradients = tf.parallel_stack(gradients)
+#       scores = tf.parallel_stack(scores)
+#       _, indexes = tf.nn.top_k(scores, k=self.__nbselected, sorted=False)
+#       grad_avg = tf.reduce_mean(tf.gather(gradients, indexes), axis=0)
+#       if len(shape) == 2 and shape[1] == 10:
+#           grad_avg = tf.reshape(grad_avg, shape=[5408,10])
+#       else:
+#           grad_avg = tf.reshape(grad_avg, shape)
+#       return grad_avg
 
 class COKrumGAR(_GAR):
   """ Full-custom operation Multi-Krum GAR class.

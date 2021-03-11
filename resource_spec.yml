@@ -1,30 +1,30 @@
 nodes:
   # single-node experiment
   - address: localhost
-    gpus: [0,1,2,3]
+    gpus: [0,1,2,3,4,5,6]
     chief: true
 
 #    # multi-nodes experiment
 #   - address: 130.85.37.13
-#     cpus: [0]
+#     gpus: [0,1,2,3,4,5,6]
 #     chief: true
 #   - address: 130.85.37.14
-#     cpus: [0]
+#     gpus: [0,1,2,3,4,5,6]
 #     ssh_config: conf2
 #   - address: 130.85.37.15
-#     cpus: [0]
+#     gpus: [0,1,2,3,4,5,6]
 #     ssh_config: conf3
 #   - address: 130.85.37.16
-#     cpus: [0]
+#     gpus: [0,1,2,3,4,5,6]
 #     ssh_config: conf4
 #   - address: 130.85.37.17
-#     cpus: [0]
+#     gpus: [0,1,2,3,4,5,6]
 #     ssh_config: conf5
 #   - address: 130.85.37.18
-#     cpus: [0]
+#     gpus: [0,1,2,3,4,5,6]
 #     ssh_config: conf6
 #   - address: 130.85.37.19
-#     cpus: [0]
+#     gpus: [0,1,2,3,4,5,6]
 #     ssh_config: conf7
 # ssh:
 #   conf2:

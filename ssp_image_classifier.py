@@ -56,7 +56,7 @@ test_images = test_images / np.float32(255)
 BATCH_SIZE = 128    #512
 
 EPOCHS = 20
-train_steps_per_epoch = min(1000, len(train_images) // BATCH_SIZE) #len(train_images)=60000
+train_steps_per_epoch = min(1000, len(train_images) // BATCH_SIZE) #len(train_images)=800
 
 tf.reset_default_graph()
 with tf.Graph().as_default(), d.scope():
