@@ -1,16 +1,12 @@
 import os
-import sys
 import numpy as np
 import tensorflow as tf
-from autodist.strategy import PS
 
 ############################################################
 # Step 1: Construct AutoDist with ResourceSpec
 from autodist import AutoDist
-autodist = AutoDist(
-    resource_spec_file='resource_spec.yml', 
-    strategy_builder=PS(local_proxy_variable=False, sync=True, staleness=3)
-)
+filepath = os.path.join(os.path.dirname(__file__), 'resource_spec.yml')
+autodist = AutoDist(resource_spec_file=filepath)
 ############################################################
 
 fashion_mnist = tf.keras.datasets.fashion_mnist

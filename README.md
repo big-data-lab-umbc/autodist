@@ -61,11 +61,3 @@ including
 [Horovod](https://github.com/horovod/horovod),
 [Parallax](https://github.com/snuspl/parallax),
 and [tf.distribute](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/python/distribute).
-
-## Examples
-
-'''bash
-python3 /home/starly/Desktop/Fed/autodist/ssp_image_classifier.py
-'''
-
-If you want to use BFTAggregator, modify autodist/kernel/graph_transformer.py 150: **BFTaggregator**  

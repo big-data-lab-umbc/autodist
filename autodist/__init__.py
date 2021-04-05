@@ -1,4 +1,4 @@
-# Copyright 2020 Petuum. All Rights Reserved.
+# Copyright 2020 Petuum, Inc. All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,8 +23,6 @@ from .const import ENV
 from .patch import PatchTensorFlow
 from .utils import logging
 
-#import autodist.aggregators as aggregators
-
 logging.set_verbosity(ENV.AUTODIST_MIN_LOG_LEVEL.val)
 
 # Enforce abspath
@@ -32,8 +30,6 @@ if sys.argv and os.path.exists(sys.argv[0]) and not os.path.isabs(sys.argv[0]):
     logging.error('AutoDist requires the script path "{}" to be an absolute path to be shared across workers. '
                   'Now exit.'.format(sys.argv[0]))
     sys.exit(1)
-
-#aggregator = aggregators.instantiate("average", 2, 0, []) #median, krum-py, average
 
 # Runtime compatibility checking
 COMPAT_TF_VERSIONS = [1.15, 2.2]

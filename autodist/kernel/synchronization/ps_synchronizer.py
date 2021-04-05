@@ -1,4 +1,4 @@
-# Copyright 2020 Petuum. All Rights Reserved.
+# Copyright 2020 Petuum, Inc. All Rights Reserved.
 #
 # It includes the derived work based on:
 # https://github.com/snuspl/parallax
@@ -20,7 +20,6 @@
 from functools import partial
 from typing import List
 
-import tensorflow as tf
 from tensorflow.python import ops
 from tensorflow.python.framework import device_spec, dtypes, constant_op
 from tensorflow.python.platform import tf_logging as logging
@@ -64,7 +63,7 @@ class PSSynchronizer(Synchronizer):
         self._var_op_to_accum_apply_op = {}
         super().__init__()
 
-    def in_graph_apply(self, graph_item, var_name, BFTaggregator):
+    def in_graph_apply(self, graph_item, var_name):
         """
         Apply in-graph ps synchronization.
 
@@ -85,8 +84,10 @@ class PSSynchronizer(Synchronizer):
             self._share_variable(item, var_op_name, master_replica=master_replica_index)
             master_var_name = ops.prepend_name_scope(var_name, replica_prefix(master_replica_index))
             master_var_op_name = get_op_name(master_var_name)
-            grad, target, update_op = item.var_op_name_to_grad_info[master_var_op_name]
-            agg_grad = self._aggregate_gradients(item, BFTaggregator, old_update_op=update_op, old_grad=grad, old_target=target)
+            item.updated = True
+            grad, target, update_op = item.var_op_name_to_grad_info_v2[master_var_op_name]
+            item.var_queried.append(master_var_op_name)
+            agg_grad = self._aggregate_gradients(item, old_update_op=update_op, old_grad=grad, old_target=target)
 
         # update grad_target_pair and variable info
         for i in range(self.num_replicas):
@@ -150,7 +151,7 @@ class PSSynchronizer(Synchronizer):
             update_consumers(handle_consumers, this_var_op.outputs[0], new_handle_op.outputs[0])
             update_colocation_group(handle_consumers, this_var_op, new_handle_op)
 
-    def _aggregate_gradients(self, graph_item, BFTaggregator, old_update_op, old_grad, old_target):
+    def _aggregate_gradients(self, graph_item, old_update_op, old_grad, old_target):
         """
         Apply in-graph synchronization to the grad and target in the graph.
 
@@ -179,7 +180,7 @@ class PSSynchronizer(Synchronizer):
             # Dense gradient
             consumer_ops = graph_item.get_ops_in_graph(old_grad.consumers())
             ctrl_consumer_ops = graph_item.get_ops_in_graph(ctrl_consumers(old_grad.op))
-            agg_grad = self._get_aggregated_dense_grad(graph_item, old_grad.name, reduce_to_device, BFTaggregator)
+            agg_grad = self._get_aggregated_dense_grad(graph_item, old_grad.name, reduce_to_device)
 
             # Make gradients consumers to consume the aggregated gradients.
             self._update_gradient_consumers(graph_item,
@@ -193,7 +194,7 @@ class PSSynchronizer(Synchronizer):
             indices_cc_ops = graph_item.get_ops_in_graph(ctrl_consumers(old_grad.indices.op))
             values_c_ops = graph_item.get_ops_in_graph(old_grad.values.consumers())
             values_cc_ops = graph_item.get_ops_in_graph(ctrl_consumers(old_grad.values.op))
-            agg_grad = self._get_aggregated_sparse_grad(graph_item, old_target.op, old_grad, reduce_to_device, BFTaggregator)
+            agg_grad = self._get_aggregated_sparse_grad(graph_item, old_target.op, old_grad, reduce_to_device)
 
             self._update_gradient_consumers(graph_item,
                                             indices_c_ops,
@@ -224,7 +225,7 @@ class PSSynchronizer(Synchronizer):
             if i == master_replica:
                 continue
             this_var_op_name = ops.prepend_name_scope(var_op_name, replica_prefix(i))
-            _, _, update_op = graph_item.var_op_name_to_grad_info[this_var_op_name]
+            _, _, update_op = graph_item.var_op_name_to_grad_info_v2[this_var_op_name]
             source_op = self._get_optimizer_source_op(update_op)
             remove_from_control_consumers(get_control_consumers(source_op), source_op)
 
@@ -262,7 +263,8 @@ class PSSynchronizer(Synchronizer):
         item = graph_item
         # here the variable on replica:0 has been shared, so the original var_name won't work
         var_op_name = ops.prepend_name_scope(get_op_name(var_name), replica_prefix(0))
-        gradient, target, update_op = item.var_op_name_to_grad_info[var_op_name]
+        item.updated = True
+        gradient, target, update_op = item.var_op_name_to_grad_info_v2[var_op_name]
         with item.graph.as_default():
             proxy = self._create_proxy(item, gradient, target) if self._local_replication else None
             if proxy:
@@ -455,7 +457,7 @@ class PSSynchronizer(Synchronizer):
 
         return queue_ops
 
-    def _get_aggregated_dense_grad(self, graph_item, grad_name, reduce_to_device, BFTaggregator):
+    def _get_aggregated_dense_grad(self, graph_item, grad_name, reduce_to_device):
         grad_op_name = strip_replica_prefix(get_op_name(grad_name))
         output_idx = get_index_from_tensor_name(grad_name)
         grad_ops = [
@@ -465,23 +467,13 @@ class PSSynchronizer(Synchronizer):
 
         # Aggregate gradients on `reduce_to_device` (usually CPU)
         with ops.device(reduce_to_device):
-            #print("@@@@@@@@@@@@@@",[grad_op.outputs[output_idx] for grad_op in grad_ops])
-            '''
             grad_sum_op_name = ops.prepend_name_scope(grad_op_name, u"%sAdd" % AUTODIST_PREFIX)
             grad_sum = math_ops.add_n([grad_op.outputs[output_idx] for grad_op in grad_ops], name=grad_sum_op_name)
             grad_avg_op_name = ops.prepend_name_scope(grad_op_name, u"%sDiv" % AUTODIST_PREFIX)
             grad_avg = math_ops.realdiv(grad_sum, self.num_replicas, name=grad_avg_op_name)
-            '''
-
-            # BFT Aggregator
-            gradients = [grad_op.outputs[output_idx] for grad_op in grad_ops]
-            grad_avg = BFTaggregator.aggregate(gradients)
-
-            #print("$$$$$$$$$$$$$$",grad_avg)
-
         return grad_avg
 
-    def _get_aggregated_sparse_grad(self, graph_item, var_op, grad, reduce_to_device, BFTaggregator):
+    def _get_aggregated_sparse_grad(self, graph_item, var_op, grad, reduce_to_device):
         indices_op_name = strip_replica_prefix(get_op_name(grad.indices.name))
         values_op_name = strip_replica_prefix(get_op_name(grad.values.name))
         dense_shape_op_name = strip_replica_prefix(get_op_name(grad.dense_shape.name))
